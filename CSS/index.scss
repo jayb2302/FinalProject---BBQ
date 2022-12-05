@@ -24,6 +24,7 @@ nav{
     opacity: 0.9;
     height: 120px;
     width: 100%;
+    z-index: 1;
     ul{
         display: flex;
         justify-content: center;
@@ -64,7 +65,7 @@ nav{
 }
 main{
     video{
-        margin-top: -7%;
-        z-index: -2;
+        margin-top: -4%;
+        
     }
 }

@@ -21,6 +21,7 @@ nav {
   opacity: 0.9;
   height: 120px;
   width: 100%;
+  z-index: 1;
 }
 nav ul {
   display: flex;
@@ -49,6 +50,5 @@ nav ul li a {
 }
 
 main video {
-  margin-top: -7%;
-  z-index: -2;
+  margin-top: -4%;
 }/*# sourceMappingURL=index.css.map */
