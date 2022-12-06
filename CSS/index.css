@@ -1,6 +1,8 @@
 @font-face {
   font-family: "Buffalo";
   src: url(../FONT/BuffaloInline2Grunge.ttf);
+  font-family: "Western";
+  src: url(../FONT/WesternBangBang-Regular.ttf);
 }
 * {
   margin: 0;
@@ -17,7 +19,7 @@ nav {
   background-image: url(../IMG/rustythin.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(32, 23, 9, 0.2);
+  background-color: rgba(32, 23, 9, 0);
   opacity: 0.9;
   height: 120px;
   width: 100%;
@@ -26,11 +28,13 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin-top: 1%;
+  margin-top: 1.5%;
   margin-left: 2%;
   margin-right: 2%;
   text-shadow: #29221C 2px 1px;
@@ -44,9 +48,9 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #E3905C;
-  font-family: "Buffalo", sans-serif;
-  font-size: 30px;
+  color: #e07837;
+  font-family: "Western", sans-serif;
+  font-size: 40px;
 }
 
 main video {
