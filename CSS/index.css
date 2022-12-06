@@ -55,4 +55,20 @@ nav ul li a {
 
 main video {
   margin-top: -4%;
+}
+main .button {
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+}
+main .button img {
+  position: absolute;
+}
+main .button a {
+  position: absolute;
+  top: 767px;
+  text-decoration: none;
+  color: #e07837;
+  font-family: "Western", sans-serif;
+  font-size: 45px;
 }/*# sourceMappingURL=index.css.map */
