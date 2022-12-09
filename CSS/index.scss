@@ -3,9 +3,7 @@
 
 *{
     margin: 0;
-    
 }
-
 #logo{
     text-align: center;
     background-color: $shadow;
@@ -48,8 +46,8 @@ nav{
                 a{
                   text-decoration: none;
                   color: $title-color;
-                   font-family: "Western" , sans-serif;
-                    font-size: 40px;
+                  font-family: "Western" , sans-serif;
+                font-size: 40px;
                    
                  
                   
@@ -67,22 +65,60 @@ main{
         margin-top: -4%;
         
     }
-    .button{
+    .buttons{
         display: flex;
-        justify-content: center; 
-        margin-top: -80px;
-        img{
-            
-            position: absolute;
+        justify-content: space-evenly;
+        .button{
+            display: flex;
+            justify-content: center; 
+            margin-top: -80px;
+            img{
+                display: flex;
+                justify-content: center;
+                position: absolute;
+            }
+            a{
+                position: absolute;
+                top: 760px;
+                text-decoration: none;
+                color: $title-color;
+                font-family: "Western" , sans-serif;
+                font-size: 60px;
+            }
+           
         }
-        a{
-            position: absolute;
-            top: 767px;
-            text-decoration: none;
-            color: $title-color;
-            font-family: "Western" , sans-serif;
-            font-size: 45px;
+    }
+    
+}
+footer{
+    font-family: 'Helvetica';
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    background-color: #29221C;
+    color: white;
+    padding: 30px 100px;
+    .col-1{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            margin-bottom: 15px;
         }
-       
+    }
+    .col-2{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    }
+    .col-3{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
