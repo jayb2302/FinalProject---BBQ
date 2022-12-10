@@ -14,16 +14,42 @@
     </div> 
    <nav id="navbar">
         <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Join Us</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">History</a>
+                <ul>
+                    <li><a href="">BBQ in USA</a></li>
+                    <li><a href="">Description</a></li>
+                    <li><a href="">BBQ Tradition</a></li>
+                    <li><a href="">4 Main styles</a></li>
+                </ul> 
+            </li>
+            <li><a href="">Join us</a>
+            <ul>
+                <li><a href="">Judge SignUp</a></li>
+                <li><a href="">Volunteer</a></li>
+            </ul>
+            </li>
         </ul>
    </nav>
    <main>
         <video src="IMG/bbqvideo.mp4" width="100%"  height="auto" controls autoplay muted></video>
-        <div id="belt"><img src="IMG/belt.png" alt="" width="100%"></div>
-        <button>Team Registration</button>
-            <div class="when">
+        <div id="belt"><img src="IMG/belt.png" alt="" width="100%" style="margin-top: -5px;"></div>
+        <!-- <button>Team Registration</button> -->
+        <div class="buttons">
+          <div class="button">
+              <img src="IMG/ButtonBBQ.png" style="height:100px ; width: 300px;" alt="">
+              <a href="">SignUp</a>
+          </div>
+          <div class="button">
+              <img src="IMG/ButtonBBQ.png" style="height:150px ; width: 450px; margin-top: -30px;" alt="">
+              <a href="" style="font-size: 100px; top:735px; ">Program</a>
+          </div>
+          <div class="button">
+              <img src="IMG/ButtonBBQ.png" style="height:100px ; width: 300px;" alt="">
+              <a href="">Kids</a>
+          </div>
+        </div>
+          <!--   <div class="when">
                 <h1>WHEN?</h1>
                 <h2>13 & 14 May 2023</h2>
                 <p> As a new addition in 2023, 
@@ -38,38 +64,31 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.1507055562465!2d9.012111751507948!3d55.49489908038943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b41f37ccb8f41%3A0xc1f9920a44eeb02c!2sFabriksvej%2015%2C%206650%20Br%C3%B8rup!5e0!3m2!1sen!2sdk!4v1670237044678!5m2!1sen!2sdk" 
                 width="700" height="900" style="border:0;" allowfullscreen="" 
                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            </div> -->
             <div id="sponsors">
-
-
             </div>
    </main>
    <footer>
-        <div>
-            <p>
-                +4572301237 <br>
-                kundeservice@tbsgrillshop.dk <br>
-                Fabriksvej 15 , 6650 Brørup <br>
-                Denmark
-            </p>
+        <div class="col-1">
+            <p>+4572301237</p>
+            <p>kundeservice@tbsgrillshop.dk</p>
+            <p>Fabriksvej 15 </p>
         </div>
-        <div>
-            <img src="IMG/LogoTBS.png" alt="">
-            <i>facebook</i>
-            <i>instagram</i>
+        <div class="col-2">
+            <img src="IMG/LogoTBS.png" style="height:100px; width: 150px; margin-top: 0.5%; margin-bottom: 0.5%;" alt="">
         </div>
-        <div>
+        <div class="col-3">
             <form action="/action_page.php">
                 <div class="container">
-                  <h2>NEWS SUBSCRIPTION</h2>
-                  <p>Sign up for our newsletter and receive exclusive offers 
-                    and news in the shop. You can always unsubscribe again.
+                  <h3>NEWS SUBSCRIPTION</h3>
+                  <p>Sign up for the latest informations <br>
+                    You can always unsubscribe again.
                     </p>
                 </div>
               
-                <div class="container" style="background-color:white">
-                  <input type="text" placeholder="Name" name="name" required>
-                  <input type="text" placeholder="Email address" name="mail" required>
+                <div class="container">
+                  <input type="text" placeholder="Name" name="name" class="name" required>
+                  <input type="text" placeholder="Email address" name="mail" class="mail" required>
                   <label>
                   <input type="checkbox" checked="checked" name="subscribe"> Latest news
                   </label>
@@ -81,8 +100,8 @@
               </form>
               
         </div>
-        <p>© 2021 Extreme Networks Limited - Privacy Policy - Terms of Use</p>
    </footer>
+   <p>© 2021 Extreme Networks Limited - Privacy Policy - Terms of Use</p>
 </body>
 </html>
 
