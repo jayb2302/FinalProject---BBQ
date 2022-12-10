@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Buffalo";
+  src: url(../FONT/BuffaloInline2Grunge.ttf);
+  font-family: "Helvetica";
+  src: url(../FONT/Helvetica.ttf);
+  font-family: "Western";
+  src: url(../FONT/WesternBangBang-Regular.ttf);
+}
+* {
+  margin: 0;
+}
+
+#logo {
+  text-align: center;
+  background-color: #29221C;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  background-image: url(../IMG/rustythin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(32, 23, 9, 0);
+  opacity: 0.9;
+  height: 120px;
+  width: 100%;
+  z-index: 1;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-shadow: #29221C 2px 1px;
+  background-color: rgba(32, 23, 9, 0.4);
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  border-radius: 25px;
+  width: 10%;
+  height: 5%;
+  text-align: center;
+  opacity: 0.9;
+}
+nav ul li ul {
+  width: 10%;
+  display: none;
+}
+nav ul li ul li {
+  width: 10%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #e07837;
+  font-family: "Western", sans-serif;
+  font-size: 40px;
+}
+
+footer {
+  font-family: "Helvetica";
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  background-color: #29221C;
+  color: white;
+  padding: 30px 100px;
+}
+footer .col-1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .col-1 p {
+  margin-bottom: 15px;
+}
+footer .col-2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+footer .col-3 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+footer .col-3 h3 {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+footer .col-3 .name {
+  margin: 10px 0;
+  border-radius: 25%;
+}
+footer .col-3 .mail {
+  margin: 10px 0;
+}
+footer .col-3 .container {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=history.css.map */
