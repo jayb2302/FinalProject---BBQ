@@ -25,11 +25,9 @@ nav{
         display: flex;
         justify-content: center;
         padding-inline-start:0;
-        
         li{
             list-style-type: none; 
             display: inline-block;
-           
             margin-top: 1.5%;
             margin-left: 2%;
             margin-right: 2%;
@@ -40,25 +38,48 @@ nav{
             width: 145px;
             text-align: center;
             opacity: 0.9;
-
-            
-            
+            ul{
+                display: none;
+                position: absolute;
+                background-color: #302B28;
+                border-radius: 30px;
+                padding-top: 30px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                transition: 1s;
+                margin-left: -20px;
+                border: solid #e38f5b48 3px;
+                li{
+                    border-radius: 0;
+                    background-color: none;
+                }
+                li:hover{
+                    background-color: #3c3c3c;
+                   }
+            }    
+            li{
+                padding: 10px;
                 a{
+                    text-decoration: none;
+                    color: $title-color;
+                    font-size: 20px;
+                    font-family: 'Helvetica';
+                }
+            }       
+            a{
                   text-decoration: none;
                   color: $title-color;
                   font-family: "Western" , sans-serif;
-                font-size: 40px;
-                   
-                 
-                  
-                  
-                  
-
-                    
-                } 
-        }
+                  font-size: 40px;
+                     } 
+          }
+          li:hover ul{
+            display: flex;
+            flex-direction: column;
+        } 
             
-}
+    }
 }
 main{
     video{
