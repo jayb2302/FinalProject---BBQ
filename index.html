@@ -33,19 +33,18 @@
    </nav>
    <main>
         <video src="IMG/bbqvideo.mp4" width="100%"  height="auto" controls autoplay muted></video>
-        <div id="belt"><img src="IMG/belt.png" alt="" width="100%" style="margin-top: -5px;"></div>
-        <!-- <button>Team Registration</button> -->
+        <div id="belt"><img src="IMG/belt.png" alt="" width="100%" style="margin-top:-5px;"></div>
         <div class="buttons">
           <div class="button">
-              <img src="IMG/ButtonBBQ.png" style="height:100px ; width: 300px;" alt="">
+              <img src="IMG/ButtonBBQ.png" style="height: 14%; width: 19%" alt="">
               <a href="">SignUp</a>
           </div>
           <div class="button">
-              <img src="IMG/ButtonBBQ.png" style="height:150px ; width: 450px; margin-top: -30px;" alt="">
-              <a href="" style="font-size: 100px; top:735px; ">Program</a>
+              <img src="IMG/ButtonBBQ.png" style="height: 21%; width: 30%; margin-top: -2%;" alt="">
+              <a href="" style="font-size: 100px; top:102%; ">Program</a>
           </div>
           <div class="button">
-              <img src="IMG/ButtonBBQ.png" style="height:100px ; width: 300px;" alt="">
+              <img src="IMG/ButtonBBQ.png" style="height: 14% ; width: 19%;" alt="">
               <a href="">Kids</a>
           </div>
         </div>
@@ -70,14 +69,26 @@
    </main>
    <footer>
         <div class="col-1">
-            <p>+4572301237</p>
-            <p>kundeservice@tbsgrillshop.dk</p>
-            <p>Fabriksvej 15 </p>
-        </div>
+            <div style="display: flex; flex-direction: row; margin: 2% 0;">
+                <img src="IMG/ICONS/phone.svg" style="width:8%; margin-right: 5% ;" alt="">
+                <p>+4572301237</p>
+            </div>
+            <div style="display: flex; flex-direction: row; margin: 2% 0;">
+                <img src="IMG/ICONS/email.svg" style="width:8%; margin-right: 5% ;" alt="">
+                <p>kundeservice@tbsgrillshop.dk</p>
+            </div>
+           <div style="display: flex; flex-direction: row; margin: 2% 0;">
+               <img src="IMG/ICONS/location.svg" style="width:8%; margin-right: 5% ;" alt="">
+               <p>Fabriksvej 15 </p></div>
+            </div>
         <div class="col-2">
             <img src="IMG/LogoTBS.png" style="height:100px; width: 150px; margin-top: 0.5%; margin-bottom: 0.5%;" alt="">
+            <div style="display: flex; flex-direction: row; justify-content: center;margin-top: -15%;">
+            <img src="IMG/ICONS/facebook.svg" style="width: 9%; margin-top: -2%;margin-right: 1%; " alt="">
+            <img src="IMG/ICONS/instagram.svg"style="width: 11%; margin-left: 1%;" alt="">
         </div>
-        <div class="col-3">
+        </div>
+        <div class="col-3" >
             <form action="/action_page.php">
                 <div class="container">
                   <h3>NEWS SUBSCRIPTION</h3>
@@ -90,12 +101,11 @@
                   <input type="text" placeholder="Name" name="name" class="name" required>
                   <input type="text" placeholder="Email address" name="mail" class="mail" required>
                   <label>
-                  <input type="checkbox" checked="checked" name="subscribe"> Latest news
+                  <input type="checkbox" checked="checked" class="checkmark" name="subscribe"> Latest news
                   </label>
                 </div>
-              
                 <div class="container">
-                <input type="submit" value="Subscribe">
+                <input type="submit" class="button" value="Subscribe">
                 </div>
               </form>
               
