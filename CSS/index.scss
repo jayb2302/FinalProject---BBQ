@@ -51,6 +51,7 @@ nav{
                 transition: 1s;
                 margin-left: -21%;  
                 box-shadow: 0 2px 5px 4px $title-color;
+                z-index: -5;
                 li{
                     width: 100%;
                     padding: 3%;
@@ -83,6 +84,8 @@ nav{
           li:hover ul{
             display: flex;
             flex-direction: column;
+            z-index: 3;
+            
         } 
             
     }

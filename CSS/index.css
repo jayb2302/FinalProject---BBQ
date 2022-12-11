@@ -63,6 +63,7 @@ nav ul li ul {
   transition: 1s;
   margin-left: -21%;
   box-shadow: 0 2px 5px 4px #e07837;
+  z-index: -5;
 }
 nav ul li ul li {
   width: 100%;
@@ -94,6 +95,7 @@ nav ul li a:hover {
 nav ul li:hover ul {
   display: flex;
   flex-direction: column;
+  z-index: 3;
 }
 
 main video {
