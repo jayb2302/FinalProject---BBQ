@@ -64,15 +64,15 @@ nav ul li a {
 
 main {
   width: 80%;
-}
-main .container-01 {
-  display: flex;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-main .container-01 textbox-01 {
+main textbox-01 {
   width: 60%;
 }
-main .container-01 imgbox-01 {
+main imgbox-01 {
   width: 30%;
 }
 
