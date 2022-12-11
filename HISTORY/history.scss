@@ -65,19 +65,35 @@ nav{
 }
 
 main{
-    width: 80%;
+    width: 100%;
     position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-        
-        textbox-01{
-            width: 60%;
+    display: block;
+    background-image: url(../IMG/rustybackground.png);
+    background-repeat: repeat-y;
+    
+    .container-01 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .textbox-01{
+            width: 50%;
+            height: 200px;
+            background-color: $shadow;
+            color: $text-color;
+            margin-right: 1%;
+            text-align: center;
+            h1{
+                font-family: 'Western';
+            }
+
         }
-        imgbox-01{
+        .imgbox-01{
             width: 30%;
+            display: flex;
+            
         }
-    }
+    }   
+}
 
     
     
