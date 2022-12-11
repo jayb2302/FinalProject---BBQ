@@ -62,20 +62,6 @@ nav ul li a {
   font-size: 40px;
 }
 
-main {
-  width: 80%;
-}
-main .container-01 {
-  display: flex;
-  position: relative;
-}
-main .container-01 textbox-01 {
-  width: 60%;
-}
-main .container-01 imgbox-01 {
-  width: 30%;
-}
-
 footer {
   font-family: "Helvetica";
   display: flex;
