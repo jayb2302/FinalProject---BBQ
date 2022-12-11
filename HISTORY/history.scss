@@ -16,8 +16,8 @@ nav{
     background-image: url(../IMG/rustythin.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(32, 23, 9, 0);
-    opacity: 0.9;
+    background-color: rgba(32, 23, 9, 0.5);
+    opacity: 1;
     height: 120px;
     width: 100%;
     z-index: 1;
@@ -70,20 +70,46 @@ main{
     display: block;
     background-image: url(../IMG/rustybackground.png);
     background-repeat: repeat-y;
+    margin-top: -2%;
+    z-index: -4;
+  
     
     .container-01 {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 5%;
         .textbox-01{
             width: 50%;
-            height: 200px;
+            height: 410px;
             background-color: $shadow;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
             color: $text-color;
             margin-right: 1%;
             text-align: center;
             h1{
-                font-family: 'Western';
+                font-family: 'Buffalo';
+                color: $title-color;
+                font-size: 50px;
+                margin-top: -2.5%;
+                margin-left: -2%;
+                text-align: start;
+            }
+            p{
+                font-family: 'Helvetica';
+                text-align: start;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 2%;
+                letter-spacing: 1.5px;
+                font-size: 19px;
+                line-height:25px ;
+                span{
+                    font-family: 'Western';
+                    font-size: 25px;
+                }
             }
 
         }
@@ -93,6 +119,202 @@ main{
             
         }
     }   
+    .container-02 {
+        display: flex;
+       justify-content: center;
+        padding-top: 5%;
+        .textbox-02{
+            width: 50%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            margin-left: 1%;
+            text-align: center;
+            position: relative;
+            margin-top: 0;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+
+            h1{
+                font-family: 'Buffalo';
+                color: $title-color;
+                font-size: 50px;
+                margin-top: -2.5%;
+                margin-left: -2%;
+                text-align: start;
+            }
+            p{
+                font-family: 'Helvetica';
+                text-align: start;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 2%;
+                letter-spacing: 1.5px;
+                font-size: 19px;
+                line-height:25px ;
+                span{
+                    font-family: 'Western';
+                    font-size: 25px;
+                }
+            }
+
+        }
+        .imgbox-02{
+            width: 30%;
+            display: inline-block;
+            margin-top: 0;
+            
+        }
+    } 
+    .container-03 {
+        display: flex;
+       justify-content: center;
+        padding-top: 5%;
+        .textbox-03{
+            width: 50%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            margin-right: 1%;
+            text-align: center;
+            position: relative;
+            margin-top: 0;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+
+            h1{
+                font-family: 'Buffalo';
+                color: $title-color;
+                font-size: 50px;
+                margin-top: -2.5%;
+                margin-left: -2%;
+                text-align: start;
+            }
+            p{
+                font-family: 'Helvetica';
+                text-align: start;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 2%;
+                letter-spacing: 1.5px;
+                font-size: 19px;
+                line-height:26px ;
+                span{
+                    font-family: 'Western';
+                    font-size: 25px;
+                }
+            }
+
+        }
+        .imgbox-03{
+            width: 30%;
+            display: inline-block;
+            margin-top: 0;
+            
+        }
+    } 
+    h2{
+        font-family: 'Buffalo';
+        text-align: center;
+        margin: 3% 0;
+        color: $title-color;
+        font-size: 50px;
+    }
+    .container-04 {
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        h1{
+            font-family: 'Buffalo';
+            color: $title-color;
+            font-size: 55px;
+            margin-top: -2.5%;
+            text-align: center;
+        }
+        p{
+            font-family: 'Helvetica';
+            text-align: center;
+            padding-left: 7%;
+            padding-right: 7%;
+            padding-top: 2%;
+            padding-bottom: 5%;
+            letter-spacing: 1.5px;
+            font-size: 19px;
+            line-height:26px ;
+            span{
+                font-family: 'Buffalo';
+                font-size: 30px;
+                padding-bottom: 2%;
+            }
+        }
+        
+        .textbox-04{
+            width: 40%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            position: relative;
+            margin-top: 0;
+            margin-right: 1%;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+
+        }
+
+        .textbox-05{
+            width: 40%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            text-align: center;
+            position: relative;
+            margin-top: 0;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+         
+
+        }
+
+        .textbox-06{
+            width: 40%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            margin-right: 0.5%;
+            text-align: center;
+            position: relative;
+            margin-top: 2%;
+            margin-bottom: 5%;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+
+        }
+
+        .textbox-07{
+            width: 40%;
+            height: auto;
+            background-color: $shadow;
+            color: $text-color;
+            text-align: center;
+            position: relative;
+            margin-top: 2%;
+            margin-left: 0.5%;
+            margin-bottom: 5%;
+            border-color: $border;
+            border: 0.5 px;
+            border-style: solid ;
+        
+        }
+       
+    } 
 }
 
     
@@ -100,7 +322,6 @@ main{
 footer{
     font-family: 'Helvetica';
     display: flex;
-    margin-top: 200px;
     justify-content: center;
     background-color: #29221C;
     color: white;
@@ -110,8 +331,17 @@ footer{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        
+        .footericon{
+            display: flex;
+            flex-direction: row;
+            margin: 0;
+            margin-bottom: 4%;
+        }
         p{
+            padding-left: 5%;
             margin-bottom: 15px;
+            padding-top: 2%;
         }
     }
     .col-2{
@@ -160,6 +390,7 @@ footer{
                 border-radius: 10px;
                 height: 25px;
                 padding-left: 5%;
+                width: 80%;
             }
             .mail{
                 font-family: 'Helvetica';
@@ -168,23 +399,31 @@ footer{
                 border-radius: 10px;
                 height: 25px;
                 padding-left: 5%;
+                width: 80%;
             }
             .container{
                 display: flex;
                 flex-direction: column;
+                
+                align-items: center;
             
                 input[type="submit" i] {
-                    width: 35%;
-                    height: 40px;
+                    width: 41%;
+                    height: 44px;
                     background-image: url(../IMG/submit.svg);
                     border-radius: 35px;
+                    border-color: transparent;
+                    background-color: transparent;
                     background-repeat: no-repeat;
-                    background-size: 100%;
-                    margin-left: 35%;
+                    background-size: 101%;
+                    background-position-y: -2.5px;
+                    background-position-x: -1px;
+                    margin:0;
                     color: $title-color;
-                    font-family: "Western" , sans-serif;
+                    font-family: 'Buffalo';
                     font-size: 25px;
-                    padding-top: 1.5%;
+                    margin-top: 1%;
+                    padding-bottom: 0%;
                 }
                 
             }

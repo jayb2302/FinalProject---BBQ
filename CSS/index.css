@@ -5,6 +5,8 @@
   src: url(../FONT/Helvetica.ttf);
   font-family: "Western";
   src: url(../FONT/WesternBangBang-Regular.ttf);
+  font-family: "Buffalo";
+  src: url(../FONT/BuffaloInline2Grungeq.ttf);
 }
 * {
   margin: 0;
