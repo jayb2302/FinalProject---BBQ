@@ -64,6 +64,21 @@ nav{
 }
 }
 
+main{
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+        
+        textbox-01{
+            width: 60%;
+        }
+        imgbox-01{
+            width: 30%;
+        }
+    }
+}
     
     
 footer{
