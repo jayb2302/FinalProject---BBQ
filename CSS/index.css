@@ -172,6 +172,19 @@ footer .col-3 .container {
   display: flex;
   flex-direction: column;
 }
+footer .col-3 .container input[type=submit i] {
+  width: 35%;
+  height: 40px;
+  background-image: url(../IMG/submit.svg);
+  border-radius: 35px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 35%;
+  color: #e07837;
+  font-family: "Western", sans-serif;
+  font-size: 25px;
+  padding-top: 1.5%;
+}
 footer .col-3 .checkmark {
   margin-left: -6%;
 }

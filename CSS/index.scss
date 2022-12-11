@@ -166,6 +166,19 @@ footer{
         .container{
             display: flex;
             flex-direction: column;
+            input[type="submit" i] {
+                width: 35%;
+                height: 40px;
+                background-image: url(../IMG/submit.svg);
+                border-radius: 35px;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                margin-left: 35%;
+                color: $title-color;
+                font-family: "Western" , sans-serif;
+                font-size: 25px;
+                padding-top: 1.5%;
+            }
         }
         .checkmark{
             margin-left: -6% ;
