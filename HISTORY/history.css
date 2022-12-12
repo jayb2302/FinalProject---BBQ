@@ -5,8 +5,6 @@
   src: url(../FONT/Helvetica.ttf);
   font-family: "Western";
   src: url(../FONT/WesternBangBang-Regular.ttf);
-  font-family: "Buffalo";
-  src: url(../FONT/BuffaloInline2Grungeq.ttf);
 }
 * {
   margin: 0;
@@ -34,8 +32,8 @@ nav {
   background-image: url(../IMG/rustythin.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(32, 23, 9, 0.5);
-  opacity: 1;
+  background-color: rgba(32, 23, 9, 0);
+  opacity: 0.9;
   height: 120px;
   width: 100%;
   z-index: 1;
@@ -43,7 +41,8 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
-  padding: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 nav ul li {
   list-style-type: none;
@@ -57,22 +56,55 @@ nav ul li {
           backdrop-filter: blur(1px);
   border-radius: 25px;
   width: 10%;
-  height: 5%;
   text-align: center;
   opacity: 0.9;
 }
 nav ul li ul {
-  width: 10%;
   display: none;
+  position: absolute;
+  background-color: #302B28;
+  width: 120%;
+  border-radius: 30px;
+  padding-top: 30px;
+  padding-left: 3%;
+  padding-right: 14%;
+  padding-bottom: 3%;
+  transition: 1s;
+  margin-left: -21%;
+  box-shadow: 0 2px 5px 4px #e07837;
+  z-index: -5;
 }
 nav ul li ul li {
-  width: 10%;
+  width: 100%;
+  padding: 3%;
+}
+nav ul li ul li a {
+  text-decoration: none;
+  color: #e07837;
+  font-size: 20px;
+  font-family: "Helvetica";
+}
+nav ul li ul li a:hover {
+  color: #e07837;
+}
+nav ul li ul li:hover {
+  background-color: #3c3c3c;
 }
 nav ul li a {
   text-decoration: none;
   color: #e07837;
   font-family: "Western", sans-serif;
   font-size: 40px;
+  text-shadow: 2px 2px 5px black;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  color: white;
+}
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
 }
 
 main {
@@ -412,4 +444,12 @@ footer .col-3 form .container input[type=submit i] {
   font-size: 25px;
   margin-top: 1%;
   padding-bottom: 0%;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  background-color: #29221C;
+  color: #e07837;
+  padding: 1%;
 }/*# sourceMappingURL=history.css.map */
