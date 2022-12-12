@@ -3,6 +3,7 @@
 
 *{
     margin: 0;
+    
 }
 #logo{
     text-align: center;
@@ -21,13 +22,25 @@
     width: 100%;
     
 }
+.navimgwrap{
+    
+ 
+    border: none !important;
+    .navbarimg{
+        position: absolute;
+        z-index:1;
+        width: 100%;
+    }
+}
+
 nav{
+   
     position: relative;
     background-image: url(../IMG/rustythin.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(32, 23, 9, 0);
-    opacity: 0.9;
+    background-color: rgba(32, 23, 9, 0.5);
+    opacity: 1;
     height: 120px;
     width: 100%;
     z-index: 1;
@@ -107,15 +120,19 @@ main{
     display: block;
     background-image: url(../IMG/rustybackground.png);
     background-repeat: repeat-y;
-    margin-top: -2%;
-    z-index: -4;
+    
+    z-index: -1;
+   
   
     
     .container-01 {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 5%;
+        padding-top: 10%;
+        margin-top: -5%;
+        
+
         .textbox-01{
             width: 50%;
             height: 410px;
