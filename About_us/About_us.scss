@@ -99,10 +99,63 @@ nav{
     }
 }
 main{
-    text{
+    background-image: url(../IMG/rustybackground.png);
+    margin-top: -10%;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-repeat: repeat-y;
+    z-index: -1;
+   
+  
+    .text{
         display: flex;
-        flex-direction: row;
+        
+        .grlishop{
+            margin: 10% 10% 5% 10%;
+            p.title{
+                color: $title-color;
+                font-family: 'Western';
+                font-size: 40px;
+            }
+            p{
+                margin-top: 4%;
+                color: $text-color;
+                font-family: 'Helvetica'
+            }
+        }
+        .competition{
+            margin: 10% 10% 5% 0;
+            p.title{
+                color: $title-color;
+                font-family: 'Western';
+                font-size: 40px;
+            }
+            p{
+                margin-top: 2%;
+                color: $text-color;
+                font-family: 'Helvetica'
+            }
+        }
     }
+    .scroll-container{
+        overflow: auto;
+        white-space: nowrap;
+        padding: 5px 70px 5px 20px;
+        background: transparent;
+        height: 100%;
+        border-radius:15px;
+        margin-bottom: 30px;
+      }
+      
+      .gridscroll{
+        display:inline-block;
+      }
+      
+      .gridscroll img {
+        margin-right:22px;
+      }
+      
 }
 footer{
     font-family: 'Helvetica';
