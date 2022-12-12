@@ -106,9 +106,58 @@ nav ul li:hover ul {
   z-index: 3;
 }
 
-main text {
+main {
+  background-image: url(../IMG/rustybackground.png);
+  margin-top: -10%;
+  width: 100%;
+  position: relative;
+  display: block;
+  background-repeat: repeat-y;
+  z-index: -1;
+}
+main .text {
   display: flex;
-  flex-direction: row;
+}
+main .text .grlishop {
+  margin: 10% 10% 5% 10%;
+}
+main .text .grlishop p.title {
+  color: #e07837;
+  font-family: "Western";
+  font-size: 40px;
+}
+main .text .grlishop p {
+  margin-top: 4%;
+  color: #f2f2f2;
+  font-family: "Helvetica";
+}
+main .text .competition {
+  margin: 10% 10% 5% 0;
+}
+main .text .competition p.title {
+  color: #e07837;
+  font-family: "Western";
+  font-size: 40px;
+}
+main .text .competition p {
+  margin-top: 2%;
+  color: #f2f2f2;
+  font-family: "Helvetica";
+}
+main .scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+main .gridscroll {
+  display: inline-block;
+}
+main .gridscroll img {
+  margin-right: 22px;
 }
 
 footer {
