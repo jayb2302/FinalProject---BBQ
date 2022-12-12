@@ -10,7 +10,6 @@
 }
 * {
   margin: 0;
-  background-color: none;
 }
 
 #logo {
@@ -30,12 +29,13 @@
   width: 100%;
 }
 
-.navbarimg {
+.navimgwrap {
+  border: none !important;
+}
+.navimgwrap .navbarimg {
   position: absolute;
   z-index: 1;
   width: 100%;
-  background: none !important;
-  border: none !important;
 }
 
 nav {
@@ -87,6 +87,7 @@ main {
   display: block;
   background-image: url(../IMG/rustybackground.png);
   background-repeat: repeat-y;
+  z-index: -1;
 }
 main .container-01 {
   display: flex;
