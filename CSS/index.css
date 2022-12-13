@@ -14,6 +14,7 @@
   text-align: center;
   background-color: #29221C;
   width: 100%;
+  padding-bottom: 0.5%;
 }
 
 .linetop {
@@ -126,7 +127,8 @@ main .buttons {
 main .buttons .button {
   display: flex;
   justify-content: center;
-  margin-top: -5%;
+  align-items: center;
+  margin-top: -4%;
 }
 main .buttons .button img {
   display: flex;
