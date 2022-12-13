@@ -19,14 +19,23 @@
     box-shadow: 0px -3px  5px $border;
     width: 100%;
 }
+.navimgwrap{
+
+    border: none !important;
+    .navbarimg{
+        position: absolute;
+        z-index:1;
+        width: 100%;
+        
+    }
+}
 nav{
+    
     position: relative;
-    background-image: url(../IMG/navbarpic.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(32, 23, 9, 0);
-    opacity: 0.9;
-    height: 120px;
+    
+    margin-top: -0.5%;
+    height: 100px;
+    margin-left: 0%;
     width: 100%;
     z-index: 1;
     ul{
@@ -100,10 +109,10 @@ nav{
 }
 main{
     background-image: url(../IMG/rustybackground.png);
-    margin-top: -8%;
+    margin-top: -6%;
 
     video{
-        margin-top: 4%;
+        margin-top: 2%;
         
     }
     .buttons{
@@ -120,7 +129,7 @@ main{
             }
             a{
                 position: absolute;
-                top: 106%;
+                top: 102%;
                 text-decoration: none;
                 color: $title-color;
                 font-family: "Western" , sans-serif;
