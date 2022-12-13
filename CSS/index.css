@@ -11,8 +11,9 @@
 }
 
 #logo {
-  text-align: center;
-  background-color: #29221C;
+  text-align: center; /* 
+background-color: $shadow; */
+  background-image: url(../IMG/rustybackground.png);
   width: 100%;
   padding-bottom: 0.5%;
 }
