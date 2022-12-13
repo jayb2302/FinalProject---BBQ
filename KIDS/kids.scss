@@ -1,5 +1,5 @@
-@use 'font' as *;
-@use 'color' as *;
+@use '../CSS/font' as *;
+@use '../CSS/color' as *;
 
 *{
     margin: 0;
@@ -100,40 +100,49 @@ nav{
 }
 main{
     background-image: url(../IMG/rustybackground.png);
-    margin-top: -8%;
-
-    video{
-        margin-top: 4%;
-        
-    }
-    .buttons{
+    margin-top: -8%;   
+    .poster {
         display: flex;
-        justify-content: space-evenly;
-        .button{
-            display: flex;
-            justify-content: center; 
-            margin-top: -5%;
-            img{
-                display: flex;
-                justify-content: center;
-                position: absolute;
-            }
-            a{
-                position: absolute;
-                top: 106%;
-                text-decoration: none;
-                color: $title-color;
-                font-family: "Western" , sans-serif;
-                font-size: 60px;
-            }
-           
+        justify-content: center;
+    img{
+        width: 70%;
+        margin: 10%;
+        margin-bottom: 1%;
+    }    
+}
+    .buttons{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       .button{
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        a{
+            position: absolute;
+            margin-top: 2%;
+            text-decoration: none;
+            color: $title-color;
+            font-family: "Western" , sans-serif;
+            font-size: 60px;
         }
+       }
+       .button1{
+        display: flex;
+        margin-top: 1%;
+
+       }
     }
-    .sponsors{
-        height: 300px;
-        margin-top: -2%;
+    .viking {
+       img{
+           width: 20%;
+           position: absolute;
+           top: 200%;
+           z-index: 0;
+      }
     }
 }
+
 footer{
     font-family: 'Helvetica';
     display: flex;

@@ -101,6 +101,7 @@ nav{
 main{
     background-image: url(../IMG/rustybackground.png);
     margin-top: -10%;
+    padding-bottom: 5%;
     width: 100%;
     position: relative;
     display: block;
@@ -145,7 +146,6 @@ main{
         background: transparent;
         height: 100%;
         border-radius:15px;
-        margin-bottom: 30px;
       }
       
       .gridscroll{
@@ -153,7 +153,8 @@ main{
       }
       
       .gridscroll img {
-        margin-right:22px;
+        margin-right:1%;
+        width: 20%;
       }
       
 }
@@ -189,38 +190,39 @@ footer{
             justify-content: center;
         }
         .name{
-            margin: 3% 0;
+            margin: 7% 0;
             border-radius: 25px;
             padding: 3%;
-            width: 110%;
-            margin-left: -9%;
+            width: 120%;
         }
         .mail{
-            margin: 3% 0;
+            margin: 0;
             border-radius: 25px; 
             padding: 3%;
-            width: 110%;
-            margin-left: -9%;
+            width: 120%;
         }
         .container{
             display: flex;
             flex-direction: column;
+            align-items: center;
             input[type="submit" i] {
-                width: 35%;
-                height: 40px;
+                width: 41%;
+                height: 44px;
                 background-image: url(../IMG/submit.svg);
                 border-radius: 35px;
+                border-color: transparent;
+                background-color: transparent;
                 background-repeat: no-repeat;
-                background-size: 100%;
-                margin-left: 35%;
+                background-size: 101%;
+                background-position-y: -2.5px;
+                background-position-x: -1px;
+                margin:0;
                 color: $title-color;
-                font-family: "Western" , sans-serif;
+                font-family: 'Buffalo';
                 font-size: 25px;
-                padding-top: 1.5%;
+                margin-top: 7%;
+                padding-bottom: 0%;
             }
-        }
-        .checkmark{
-            margin-left: -6% ;
         }
     }
 }
@@ -230,6 +232,7 @@ footer{
     background-color: $shadow;
     color: $title-color;
     padding: 1%;
+    margin-top: -3%;
 }
 @media screen and (max-width: 600px){
     footer{
