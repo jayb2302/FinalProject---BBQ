@@ -5,23 +5,26 @@
     margin: 0;
     
 }
-#logo{
-    text-align: center;
-    background-color: $shadow;
-    width: 100%;
-    padding-bottom: 0.5%;
+body{
+    z-index: 0;
+    position: relative;
+    #logo{
+        text-align: center;
+        background-color: $shadow;
+        width: 100%;
+        padding-bottom: 0.5%;
     
-}
-.linetop{
-    z-index: 2;
-    margin: 0;
-    position: absolute;
-    padding: 0;
-    margin-top: -0.5%;
-    box-shadow: 0px -3px  5px $border;
-    width: 100%;
+    }
+    .linetop{
+        z-index: 2;
+        margin: 0;
+        position: absolute;
+        padding: 0;
+        margin-top: -0.5%;
+        box-shadow: 0px -3px  5px $border;
+        width: 100%;
     
-}
+    }
 .navimgwrap{
 
    
@@ -111,8 +114,6 @@ nav{
     }
      }
     
-   
-    
     main {
         width: 100%;
         position: relative;
@@ -121,9 +122,35 @@ nav{
         align-items: center;
         background-image: url(../IMG/rustybackground.png);
         background-repeat: repeat-y;
+        background-size: cover;
         z-index: -1;
         padding: 15% 0;
         margin-top: -5%;
+        .button{
+            position: absolute;
+            display: flex;
+            justify-content: center; 
+            align-self: flex-start;
+            width: 100%;
+            z-index: 2;
+            margin-top: -7.5%;
+           
+            img{
+                display: flex;
+                justify-content: center;
+                position: relative;
+            }
+            a{
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                color: $title-color;
+                font-family: "Western" , sans-serif;
+                font-size: 60px;
+                padding: 0.7%;
+            }
+           
+        }
     
     
        
@@ -150,7 +177,7 @@ nav{
                 border-radius: 45px;
                 padding: 5% 0;
                 font-family: 'Western';
-                font-size: 30px;
+                font-size: 40px;
                 
                 
                 
@@ -162,37 +189,117 @@ nav{
                         display: block;
                         width: 100%;
                     }
+
+                    .checkbox{
+                        position: relative;
+                        display: inline-block;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100px;
+                        width: 10%;
+                        /* The container */
+                        .container {
+                            display: block;
+                            position: relative;
+                            padding-left: 35px;
+                            margin-bottom: 12px;
+                            cursor: pointer;
+                            font-size: 22px;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                            /* Hide the browser's default checkbox */
+                            .container input {
+                                position: absolute;
+                                opacity: 0;
+                                cursor: pointer;
+                                height: 0;
+                                width: 0;
+                                background-color: #eee;
+                            
+                            }
+                            /* Create a custom checkbox */
+                            .checkmark {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                height: 45px;
+                                width: 45px;
+                                background-color: #eee;
+                                &:hover input ~ .checkmark {
+                                background-color: #ccc;
+                                }
+                            }
+                            
+                            /* On mouse-over, add a grey background color */
+                            .container
+                            
+                            /* When the checkbox is checked, add a blue background */
+                            .container input:checked ~ .checkmark {
+                                background-color: #2196F3;
+                            }
+                            
+                            /* Create the checkmark/indicator (hidden when not checked) */
+                            .checkmark:after {
+                                content: "";
+                                position: absolute;
+                                display: none;
+                            }
+                            
+                            /* Show the checkmark when checked */
+                            .container input:checked ~ .checkmark:after {
+                                display: block;
+                            }
+                            
+                            /* Style the checkmark/indicator */
+                            .container .checkmark:after {
+                                left: 9px;
+                                top: 5px;
+                                width: 5px;
+                                height: 10px;
+                                border: solid white;
+                                border-width: 0 3px 3px 0;
+                                -webkit-transform: rotate(45deg);
+                                -ms-transform: rotate(45deg);
+                                transform: rotate(45deg);
+                            }
+
+                        }
+  
+  
+                    }
+                        
                     
-                   
                     .form-control{
                         width: 50%;
-                        height: 30px;
-                
+                        height: 40px;
+                        font-family: 'Helvetica';
                         border-radius: 10px;
                         border-width: 0.5px;
                         margin: 1% 0%;
-                        padding-left: 3%;
+                        padding-left: 1%;
                         
                         
                     }
-                   .state{
-                    width: 100%;
-                    position: relative;
-                    display: inline-block;
-                   }
-                   .checkbox{
-                    height: 100px;
-                   }
-                    
-                       
-                    
-                    
+                    .state{
+                        width: 100%;
+                        position: relative;
+                        display: inline-block;
                     }
-                    
+                    .checkbox{
+                        height: 100px;
+                    }
+                        
+                        
+                        
+                        
                 }
+                    
             }
+        }
 
-            
+        
            
             
            
@@ -326,3 +433,6 @@ nav{
         }
     }
 
+
+    
+}
