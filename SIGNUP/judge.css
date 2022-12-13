@@ -79,6 +79,14 @@ nav ul li a {
   font-size: 40px;
 }
 
+main {
+  width: 100%;
+}
+main .container-01 {
+  width: 80%;
+  background-image: linear-gradient(#F7EBC8, #A8976E, #87785C, #897A5E, #817257, #6B5E45, #342310);
+}
+
 .linebottom {
   z-index: 2;
   margin: 0;
