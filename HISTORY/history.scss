@@ -416,31 +416,26 @@ footer{
                 margin-bottom: 15px;
                 display: flex;
                 justify-content: center;
+                margin-bottom: 4%;
             }
             .name{
-                font-family: 'Helvetica';
-                font-size: 16px;
-                margin: 8px 0;
-                border-radius: 10px;
-                height: 25px;
-                padding-left: 5%;
-                width: 80%;
+                margin:0 0 7% 0;
+                border-radius: 25px;
+                padding: 3%;
+                width: 120%;
             }
             .mail{
-                font-family: 'Helvetica';
-                font-size: 16px;
-                margin: 8px 0;
-                border-radius: 10px;
-                height: 25px;
-                padding-left: 5%;
-                width: 80%;
+                margin: 0;
+                border-radius: 25px; 
+                padding: 3%;
+                width: 120%;
+            
             }
             .container{
                 display: flex;
                 flex-direction: column;
-                
                 align-items: center;
-            
+                margin-top: 7%;
                 input[type="submit" i] {
                     width: 41%;
                     height: 44px;
@@ -465,4 +460,12 @@ footer{
         }
 
     }
+}
+.end{
+    display: flex;
+    justify-content: center;
+    background-color: $shadow;
+    color: $title-color;
+    padding: 1%;
+    margin-top: -3%;
 }
