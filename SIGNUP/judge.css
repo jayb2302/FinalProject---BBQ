@@ -81,10 +81,13 @@ nav ul li a {
 
 main {
   width: 100%;
+}
+main .container-01 {
   background-color: goldenrod;
   width: 80%;
   height: 800px;
 }
+
 .linebottom {
   z-index: 2;
   margin: 0;
