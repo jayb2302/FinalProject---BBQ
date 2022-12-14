@@ -111,6 +111,7 @@ nav{
 main{
     background-image: url(../IMG/rustybackground.png);
     margin-top: -6%;
+    padding: 0 0 3% 0;
 
     video{
         margin-top: 2%;
@@ -140,10 +141,24 @@ main{
            
         }
     }
-    .sponsors{
-        height: 300px;
-        margin-top: -2%;
-    }
+    .scroll-container{
+        overflow:auto;
+        white-space: nowrap;
+        padding: 5px 70px 5px 20px;
+        background: transparent;
+        height: 100%;
+        border-radius:15px;
+        margin-top: 10%;
+      }
+      
+      .gridscroll{
+        display:inline-block;
+      }
+      
+      .gridscroll img {
+        margin-right:1%;
+        width: 15%;
+      }
 }
 footer{
     font-family: 'Helvetica';
