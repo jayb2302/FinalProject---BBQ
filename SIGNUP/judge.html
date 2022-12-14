@@ -42,77 +42,78 @@
     </div>
     <div class="container-01">
         <div class="wrapper">
-            <form class="form">
-                <div class="name">
-                    <label for="name">First name & Last name</label>
-                    <input style="margin-bottom: 2%; margin-top: 0%;"  class="form-control" required type="text" id="name" name="name" autocomplete="name" enterkeyhint="next">
-                </div>
-                <div class="street">
-                    <Label>Street Address</Label>
-                    <input style="margin-bottom: 0%; margin-top: 0%;" type="street" class="form-control" id="autocomplete" placeholder="Street Name">
-                    <input style="margin-bottom: 0%; margin-top: 0.5%;" type="street" class="form-control" id="autocomplete" placeholder="Address Line 2">
-                    <div class="state"> 
-                    <input style="width: 15.5%; margin-top: 0.5%; margin-bottom: 0.3%;" type="city" class="form-control" id="inputCity" placeholder="City">
-                    <input style="width: 15.5%; margin: 0;" type="state" class="form-control" id="inputState" placeholder="State/Region">
-                    <input style="width: 15.5%; margin: 0;" type="zip" class="form-control" id="inputZip" placeholder="Postal Code">
+            <div class="form-wrapper">
+                <form class="form">
+                    
+                    <div class="name">
+                        <label for="name">First name & Last name</label>
+                        <input style="margin-bottom: 2%; margin-top: 0%;"  class="form-control" required type="text" id="name" name="name" autocomplete="name" enterkeyhint="next">
+                    
                     </div>
-                    <input style="margin: 0;" type="country" class="form-control" id="inputCountry" placeholder="Country">
-                    
-                </div>
-                <div class="email">
-                    <label style="margin-top: 2%;"for="Email">Email Address</label>
-                    <input style="margin-bottom: 2%; margin-top: 0%;" type="email" id="Email" name="Email" class="form-control" required>
-                   
-                </div>
-                <div class="phone">
-                    <label for="phone">Phone number:</label>
-                    <input style="margin-bottom: 2%; margin-top: 0%;" type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-                </div> 
-                <div class="number">
-                    <label for="ticketNum">KCB Member Number</label>
-                    <input style="margin-bottom: 2%; margin-top: 0%; width: 10%;" id="ticketNum" class="form-control" type="number" name="ticketNum" value="0" />
-                </div>
-                <div class="number">
-                    <label for="ticketNum">Time Judged</label>
-                    <input style="margin-bottom: 2%; margin-top: 0%; width: 10%;" id="ticketNum" class="form-control" type="number" name="ticketNum" value="0" />
-                </div>
-            </form>
-            <form class="checkbox" action="">
-                <label class="form-control">
-                  <input type="checkbox" name="checkbox" />
-                  Checkbox
-                </label>
-              
-                <label class="form-control">
-                  <input type="checkbox" name="checkbox-checked" checked />
-                  Checkbox - checked
-                </label>
-              
-    
-              </form>
-             <!--    <div class="checkbox">
-                    <label style="margin-bottom: 0%; margin-top: 0%; " for="vehicle1"> I'm also a Certified Table Captain</label><br>
- -->                    <!--   Checkbox -->
-                    <!-- <label class="box-control">
-                        <input type="checkbox" name="checkbox" />
-                    </label> -->
-
-                      <!-- Checkbox - checked -->
-               <!--      <label class="box-control">
-                        <input type="checkbox" name="checkbox-checked" checked />
+                    <div class="street">
+                        <Label>Street Address</Label>
+                        <input style="margin-bottom: 0%; margin-top: 0%;" type="street" class="form-control" id="autocomplete" placeholder="Street Name">
+                        <input style="margin-bottom: 0%; margin-top: 0.5%;" type="street" class="form-control" id="autocomplete" placeholder="Address Line 2">
+                        <div class="state"> 
+                            <input style="margin-bottom: 0%; margin-top: 0.5%;" type="state" class="form-control" id="inputState" placeholder="State/Region">
+                            <input style=" margin-bottom: 0%; margin-top: 0.5%;" type="city" class="form-control" id="inputCity" placeholder="City">
+                            <input style=" margin-bottom: 0.5%; margin-top: 0.5%; " type="zip" class="form-control" id="inputZip" placeholder="Postal Code">
+                        </div>
+                        <input style="margin: 0;" type="country" class="form-control" id="inputCountry" placeholder="Country">
                         
-                      </label>
-                
-                </div>
-                <div class="gender">
-                        <label>  Gender: </label>  <br>  
-                        <input type="checkbox" id="gender" name="gender" value="male"/> Male    
-                        <br>  
-                        <input type="radio" id="gender" name="gender" value="female"/> Female <br/>   
-                </div> -->
-            
+                    </div>
+                    <div class="email">
+                        <label style="margin-top: 2%;"for="Email">Email Address</label>
+                        <input style="margin-bottom: 2%; margin-top: 0%;" type="email" id="Email" name="Email" class="form-control" required>
                     
-    
+                    </div>
+                    <div class="phone">
+                        <label for="phone">Phone number:</label>
+                        <input style="margin-bottom: 2%; margin-top: 0%;" type="tel" id="phone" name="phone" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div> 
+                    <div class="number">
+                        <label for="ticketNum">KCB Member Number</label>
+                         
+                        <input style="margin-bottom: 2%; margin-top: 0%; " id="ticketNum" class="form-control" type="text" name="ticketNum"  />
+                  
+                    </div>
+                    
+                    <div class="number">
+                        <label for="ticketNum">Time Judged</label>
+                        <input style="margin-bottom: 2%; margin-top: 0%; " id="ticketNum" class="form-control" type="number" name="ticketNum" value="0" />
+                    </div>
+                </form>
+                
+
+                <form id="checkbox" action="">
+                    <label for="ticketNum">I am also a Certified Table Captain</label>
+                    <label class="form-control">
+                    <input type="checkbox" name="checkbox" />
+                        Yes
+                    </label>
+                    <label class="form-control">
+                        <input type="checkbox" name="checkbox" />
+                        No
+                    </label>
+                    <label for="ticketNum">Gender</label>
+                     <label class="form-control">
+                         <input type="checkbox" name="checkbox" />
+                         Male
+                     </label>
+                     <label class="form-control">
+                         <input type="checkbox" name="checkbox" />
+                         Female
+                     </label>
+               
+
+                 </form>
+                
+                
+            </div>
+
+            
+
+           
         </div>
     </div>
    </main>
