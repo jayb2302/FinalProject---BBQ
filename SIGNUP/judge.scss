@@ -39,7 +39,6 @@ body{
 nav{
     
     position: relative;
-    
     margin-top: -0.5%;
     height: 100px;
     margin-left: 0%;
@@ -47,7 +46,6 @@ nav{
     z-index: 2;
     
     ul{
-        
         display: flex;
         justify-content: center;
         padding-inline-start:0;
@@ -72,7 +70,6 @@ nav{
             height: 35px;
             text-align: center;
             z-index: 10;
-            
             
             a{
                 text-decoration: none;
@@ -121,9 +118,6 @@ nav{
                     color: $text-color;
                 }
 
-                
-                
-                
                 a{
                     text-decoration: none;
                     color: $title-color;
@@ -132,9 +126,6 @@ nav{
                     letter-spacing: 1.5px;
                     font-weight: lighter;
                     z-index: 2;
-                    
-                
-                
                 }
             }
         }
@@ -143,6 +134,7 @@ nav{
             display: block;
         }        
     }
+
 }
 
     main {
