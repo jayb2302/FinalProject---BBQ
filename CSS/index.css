@@ -11,9 +11,8 @@
 }
 
 #logo {
-  text-align: center; /* 
-background-color: $shadow; */
-  background-image: url(../IMG/rustybackground.png);
+  text-align: center;
+  background-color: #29221C;
   width: 100%;
   padding-bottom: 0.5%;
 }
@@ -117,34 +116,40 @@ nav ul li:hover ul {
 
 main {
   background-image: url(../IMG/rustybackground.png);
-  margin-top: -6%;
-  padding: 0 0 3% 0;
+  margin-top: -5%;
+  padding: 0 0 0% 0;
 }
 main video {
   margin-top: 2%;
 }
 main .buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: -2.5%;
 }
 main .buttons .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -4%;
+  width: 100%;
+  margin: 0;
+  height: auto;
 }
 main .buttons .button img {
   display: flex;
   justify-content: center;
   position: absolute;
-  width: 19%;
+  width: 13%;
 }
 main .buttons .button .spesial {
-  width: 30%;
+  width: 22%;
 }
 main .buttons .button a {
   position: absolute;
-  top: 102%;
+  padding-top: 0.3%;
   text-decoration: none;
   color: #e07837;
   font-family: "Western", sans-serif;
@@ -152,7 +157,6 @@ main .buttons .button a {
 }
 main .buttons .button .dop {
   font-size: 100px;
-  margin-top: -1.5%;
 }
 main .scroll-container {
   overflow: auto;
@@ -161,7 +165,7 @@ main .scroll-container {
   background: transparent;
   height: 100%;
   border-radius: 15px;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 main .gridscroll {
   display: inline-block;
