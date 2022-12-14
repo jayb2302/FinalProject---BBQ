@@ -11,9 +11,8 @@
 }
 
 #logo {
-  text-align: center; /* 
-background-color: $shadow; */
-  background-image: url(../IMG/rustybackground.png);
+  text-align: center;
+  background-color: #29221C;
   width: 100%;
   padding-bottom: 0.5%;
 }
@@ -116,50 +115,71 @@ nav ul li:hover ul {
 
 main {
   background-image: url(../IMG/rustybackground.png);
-  margin-top: -6%;
-  padding: 0 0 3% 0;
+  margin-top: -10%;
+  padding-bottom: 5%;
+  width: 100%;
+  position: relative;
+  display: block;
+  background-repeat: repeat-y;
+  z-index: -1;
 }
-main video {
+main .text {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  font-family: "Western";
+  color: #e07837;
+  font-size: 100px;
+  margin-bottom: 3%;
+}
+main .program {
+  display: flex;
+  justify-content: center;
+}
+main .program .col-1 {
+  margin-right: 1%;
+  width: 25%;
+  font-family: "Western";
+  color: #f2f2f2;
+  font-size: 80px;
+  background-color: rgba(41, 34, 28, 0.6392156863);
+}
+main .program .col-1 .information {
+  font-size: 35px;
+  margin: 0 5%;
+}
+main .program .col-1 .information p {
   margin-top: 2%;
 }
-main .buttons {
-  display: flex;
-  justify-content: space-evenly;
+main .program .col-2 {
+  margin-right: 1%;
+  width: 25%;
+  font-family: "Western";
+  color: #f2f2f2;
+  font-size: 80px;
+  background-color: rgba(41, 34, 28, 0.6392156863);
 }
-main .buttons .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -4%;
+main .program .col-2 .information {
+  font-size: 35px;
+  margin: 0 5% 5% 5%;
 }
-main .buttons .button img {
-  display: flex;
-  justify-content: center;
-  position: absolute;
+main .program .col-2 .information p {
+  margin-top: 2%;
 }
-main .buttons .button a {
-  position: absolute;
-  top: 102%;
-  text-decoration: none;
-  color: #e07837;
-  font-family: "Western", sans-serif;
-  font-size: 60px;
+main .program .col-3 {
+  margin-right: 1%;
+  width: 25%;
+  font-family: "Western";
+  color: #f2f2f2;
+  font-size: 80px;
+  background-color: rgba(41, 34, 28, 0.6392156863);
 }
-main .scroll-container {
-  overflow: auto;
-  white-space: nowrap;
-  padding: 5px 70px 5px 20px;
-  background: transparent;
-  height: 100%;
-  border-radius: 15px;
-  margin-top: 10%;
+main .program .col-3 .information {
+  font-size: 35px;
+  margin: 0 5%;
 }
-main .gridscroll {
-  display: inline-block;
-}
-main .gridscroll img {
-  margin-right: 0.2%;
-  width: 15%;
+main .program .col-3 .information p {
+  margin-top: 2%;
 }
 
 footer {
@@ -238,11 +258,4 @@ footer .col-3 .container input[type=submit i] {
   color: #e07837;
   padding: 1%;
   margin-top: -3%;
-}
-
-@media screen and (max-width: 600px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=program.css.map */

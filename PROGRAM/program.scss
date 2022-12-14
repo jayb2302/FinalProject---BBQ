@@ -1,13 +1,12 @@
-@use 'font' as *;
-@use 'color' as *;
+@use '../CSS/font' as *;
+@use '../CSS/color' as *;
 
 *{
     margin: 0;
 }
 #logo{
-    text-align: center;/* 
-    background-color: $shadow; */
-    background-image: url(../IMG/rustybackground.png);
+    text-align: center;
+    background-color: $shadow;
     width: 100%;
     padding-bottom: 0.5%;
 }
@@ -20,6 +19,7 @@
     box-shadow: 0px -3px  5px $border;
     width: 100%;
 }
+
 .navimgwrap{
 
     border: none !important;
@@ -110,55 +110,71 @@ nav{
 }
 main{
     background-image: url(../IMG/rustybackground.png);
-    margin-top: -6%;
-    padding: 0 0 3% 0;
-
-    video{
-        margin-top: 2%;
-        
-    }
-    .buttons{
+    margin-top: -10%;
+    padding-bottom: 5%;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-repeat: repeat-y;
+    z-index: -1;
+    .text{
+        padding-top: 10%;
         display: flex;
-        justify-content: space-evenly;
-        .button{
-            display: flex;
-            justify-content: center; 
-            align-items: center;
-            margin-top: -4%;
-            img{
-                display: flex;
-                justify-content: center;
-                position: absolute;
+        justify-content: center;
+        font-family: 'Western';
+        color: $title-color;
+        font-size: 100px;
+        margin-bottom: 3%;
+    }
+    .program{
+        display: flex;
+        justify-content: center;
+        .col-1{
+            margin-right: 1%;
+            width: 25%;
+            font-family: 'Western';
+            color: $text-color;
+            font-size: 80px;
+            background-color: #29221ca3;
+            .information{
+                font-size: 35px;
+                margin: 0 5%;
+                p{
+                    margin-top: 2%;
+                }
             }
-            a{
-                position: absolute;
-                top: 102%;
-                text-decoration: none;
-                color: $title-color;
-                font-family: "Western" , sans-serif;
-                font-size: 60px;
+        }
+        .col-2{
+            margin-right: 1%;
+            width: 25%;
+            font-family: 'Western';
+            color: $text-color;
+            font-size: 80px;
+            background-color: #29221ca3;
+            .information{
+                font-size: 35px;
+                margin: 0 5% 5% 5%;
+                p{
+                    margin-top: 2%;
+                }
             }
-           
+        }
+        .col-3{
+            margin-right: 1%;
+            width: 25%;
+            font-family: 'Western';
+            color: $text-color;
+            font-size: 80px;
+            background-color: #29221ca3;
+            .information{
+                font-size: 35px;
+                margin: 0 5%;
+                p{
+                    margin-top: 2%;
+                }
+            }
         }
     }
-    .scroll-container{
-        overflow:auto;
-        white-space: nowrap;
-        padding: 5px 70px 5px 20px;
-        background: transparent;
-        height: 100%;
-        border-radius:15px;
-        margin-top: 10%;
-      }
-      
-      .gridscroll{
-        display:inline-block;
-      }
-      
-      .gridscroll img {
-        margin-right:0.2%;
-        width: 15%;
-      }
 }
 footer{
     font-family: 'Helvetica';
@@ -235,10 +251,4 @@ footer{
     color: $title-color;
     padding: 1%;
     margin-top: -3%;
-}
-@media screen and (max-width: 600px){
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
 }
