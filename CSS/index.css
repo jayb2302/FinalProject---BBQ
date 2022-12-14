@@ -117,6 +117,7 @@ nav ul li:hover ul {
 main {
   background-image: url(../IMG/rustybackground.png);
   margin-top: -6%;
+  padding: 0 0 3% 0;
 }
 main video {
   margin-top: 2%;
@@ -144,9 +145,21 @@ main .buttons .button a {
   font-family: "Western", sans-serif;
   font-size: 60px;
 }
-main .sponsors {
-  height: 300px;
-  margin-top: -2%;
+main .scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius: 15px;
+  margin-top: 10%;
+}
+main .gridscroll {
+  display: inline-block;
+}
+main .gridscroll img {
+  margin-right: 1%;
+  width: 15%;
 }
 
 footer {
