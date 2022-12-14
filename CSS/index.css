@@ -124,7 +124,7 @@ main {
   padding: 0 0 0% 0;
 }
 main video {
-  padding-top: 1%;
+  margin-top: 1%;
 }
 main .buttons {
   display: flex;
@@ -253,9 +253,9 @@ footer .col-3 .container input[type=submit i] {
   background-position-x: -1px;
   margin: 0;
   color: #e07837;
-  font-family: "Western";
+  font-family: "Buffalo";
   font-size: 25px;
-  margin-top: 5%;
+  margin-top: 7%;
   padding-bottom: 0%;
 }
 
