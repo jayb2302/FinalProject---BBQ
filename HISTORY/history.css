@@ -134,6 +134,10 @@ nav ul ul li a {
 nav ul .show:hover + .hide {
   display: block;
 }
+nav li.dropdown-item {
+  border: 1px solid red !important;
+  display: block !important;
+}
 
 main {
   width: 100%;
