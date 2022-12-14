@@ -54,7 +54,7 @@ nav{
             background-color: rgba(32, 23, 9, 0.4) ;
             backdrop-filter: blur(1px);
             border-radius: 25px;
-            width: 10%;
+            width: 10%; 
             text-align: center;
             opacity: 0.9;
             ul{
@@ -130,6 +130,10 @@ main{
                 display: flex;
                 justify-content: center;
                 position: absolute;
+                width: 19%
+            }
+            .spesial{
+                width: 30%;
             }
             a{
                 position: absolute;
@@ -138,6 +142,10 @@ main{
                 color: $title-color;
                 font-family: "Western" , sans-serif;
                 font-size: 60px;
+            }
+            .dop{
+                font-size: 100px; 
+                margin-top: -1.5% ;
             }
            
         }
@@ -238,6 +246,13 @@ footer{
     margin-top: -3%;
 }
 @media screen and (max-width: 600px){
+    nav{
+        ul{
+            li{
+                width: 30%;
+            }
+        }
+    }
     .navimgwrap{
     .navbarimg{
         height: 40px;
@@ -245,8 +260,23 @@ footer{
 }
     main{
     video{
-        margin-top: -10%;
+        margin-top: -15%;
     }
+    .buttons{
+    .button{
+        img{
+            height: none;
+
+        }
+        a{
+            top: 34.5%;
+            font-size: 20px;
+        }
+        .dop{
+            font-size: 30px;
+        }
+    }
+}
 }
     footer{
         display: flex;

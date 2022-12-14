@@ -137,6 +137,10 @@ main .buttons .button img {
   display: flex;
   justify-content: center;
   position: absolute;
+  width: 19%;
+}
+main .buttons .button .spesial {
+  width: 30%;
 }
 main .buttons .button a {
   position: absolute;
@@ -145,6 +149,10 @@ main .buttons .button a {
   color: #e07837;
   font-family: "Western", sans-serif;
   font-size: 60px;
+}
+main .buttons .button .dop {
+  font-size: 100px;
+  margin-top: -1.5%;
 }
 main .scroll-container {
   overflow: auto;
@@ -242,11 +250,24 @@ footer .col-3 .container input[type=submit i] {
 }
 
 @media screen and (max-width: 600px) {
+  nav ul li {
+    width: 30%;
+  }
   .navimgwrap .navbarimg {
     height: 40px;
   }
   main video {
-    margin-top: -10%;
+    margin-top: -15%;
+  }
+  main .buttons .button img {
+    height: none;
+  }
+  main .buttons .button a {
+    top: 34.5%;
+    font-size: 20px;
+  }
+  main .buttons .button .dop {
+    font-size: 30px;
   }
   footer {
     display: flex;
