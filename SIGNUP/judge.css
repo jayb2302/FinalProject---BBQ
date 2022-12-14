@@ -280,7 +280,7 @@ footer {
   justify-content: center;
   background-color: #29221C;
   color: white;
-  padding: 30px 100px;
+  padding: 3% 5%;
 }
 footer .col-1 {
   width: 33%;
@@ -288,73 +288,43 @@ footer .col-1 {
   justify-content: center;
   flex-direction: column;
 }
-footer .col-1 .footericon {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  margin-bottom: 4%;
-}
 footer .col-1 p {
-  padding-left: 5%;
-  margin-bottom: 15px;
-  padding-top: 2%;
+  margin-top: 3%;
 }
 footer .col-2 {
   width: 33%;
   display: flex;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
   justify-content: center;
-}
-footer .col-2 .icon-wrapper {
-  display: flex;
-  width: 15%;
-  margin-top: 5%;
-  justify-content: space-between;
-}
-footer .col-2 .icon-wrapper .icon {
-  text-align: center;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 footer .col-3 {
   width: 33%;
   display: flex;
   justify-content: center;
 }
-footer .col-3 form {
-  width: 60%;
-  text-align: center;
-}
-footer .col-3 form h3 {
-  margin-bottom: 15px;
+footer .col-3 h3 {
+  margin-bottom: 4%;
   display: flex;
   justify-content: center;
 }
-footer .col-3 form .name {
-  font-family: "Helvetica";
-  font-size: 16px;
-  margin: 8px 0;
-  border-radius: 10px;
-  height: 25px;
-  padding-left: 5%;
-  width: 80%;
+footer .col-3 .name {
+  margin: 7% 0;
+  border-radius: 25px;
+  padding: 3%;
+  width: 120%;
 }
-footer .col-3 form .mail {
-  font-family: "Helvetica";
-  font-size: 16px;
-  margin: 8px 0;
-  border-radius: 10px;
-  height: 25px;
-  padding-left: 5%;
-  width: 80%;
+footer .col-3 .mail {
+  margin: 0;
+  border-radius: 25px;
+  padding: 3%;
+  width: 120%;
 }
-footer .col-3 form .container {
+footer .col-3 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-footer .col-3 form .container input[type=submit i] {
+footer .col-3 .container input[type=submit i] {
   width: 41%;
   height: 44px;
   background-image: url(../IMG/submit.svg);
@@ -369,6 +339,15 @@ footer .col-3 form .container input[type=submit i] {
   color: #e07837;
   font-family: "Buffalo";
   font-size: 25px;
-  margin-top: 1%;
+  margin-top: 7%;
   padding-bottom: 0%;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  background-color: #29221C;
+  color: #e07837;
+  padding: 1%;
+  margin-top: -3%;
 }/*# sourceMappingURL=judge.css.map */
