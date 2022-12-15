@@ -319,6 +319,9 @@ main{
         display: flex;
         flex-direction: column;
         .grlishop{
+            p.title{
+                font-size: 35px;
+            }
             p{
                 text-align: center;
             }
@@ -333,6 +336,9 @@ main{
         }
     .competition{
         margin: 5% 10% 10% 10%;
+        p.title{
+            font-size: 35px;
+        }
         p{
             text-align: center;
         }

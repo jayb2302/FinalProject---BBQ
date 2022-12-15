@@ -304,6 +304,9 @@ footer .col-3 .container input[type=submit i] {
     display: flex;
     flex-direction: column;
   }
+  main .text .grlishop p.title {
+    font-size: 35px;
+  }
   main .text .grlishop p {
     text-align: center;
   }
@@ -317,6 +320,9 @@ footer .col-3 .container input[type=submit i] {
   }
   main .text .competition {
     margin: 5% 10% 10% 10%;
+  }
+  main .text .competition p.title {
+    font-size: 35px;
   }
   main .text .competition p {
     text-align: center;
