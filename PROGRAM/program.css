@@ -324,8 +324,10 @@ footer .col-3 .container input[type=submit i] {
     width: 100%;
     margin: 2% 0;
     padding: 1%;
+    text-align: center;
   }
   footer .col-3 .container .mail {
+    text-align: center;
     width: 100%;
     padding: 1%;
   }
