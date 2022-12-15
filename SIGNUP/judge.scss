@@ -383,7 +383,7 @@ nav{
                 justify-content: center;
                 position: relative;
                 width:20%; 
-                height: 80px  ;
+                height: 80px;
                
             }
             a{
@@ -500,6 +500,7 @@ nav{
 }
 
 @media screen and (max-width: 600px){
+    body{
     #logoimg{
         height: 50px;
         width: 50px;
@@ -508,9 +509,10 @@ nav{
     .linetop{
         display: none;
     }
+
     nav{
         ul{
-            width: 80px;
+            width: 100%;
             .navbarimg{
                 
                 display: none;
@@ -535,6 +537,10 @@ nav{
                     font-size: 30px;
                     margin-top: -1%;
             }
+            img{
+                height: 33px;
+                width: 40%;
+            }
 
             #Btn{
                 width: 200px;
@@ -545,14 +551,19 @@ nav{
         } 
 
         .container-01{
-            width: 100%;
+            width: 80%;
             .wrapper{
             width: 100%;
                 .form-wrapper{
                     display: block;
                     width: 100%;
-                    .form{
+                    margin-top: 5%;
+                    
+                    #checkbox .checklabel{
+                        width: 90%;
                         
+                    }
+                    .form{
                         
                         label{
                             
@@ -565,12 +576,12 @@ nav{
                             
                         }
                         .state {
-                            display: block;
-                            width: 130px;
-                            left: -10%;
+                            display: flex;
+                            width: 80%;
+                            left: 14%;
                             input{
-                                width:  105px;
                                 font-size: 19;
+                                width: 26%;
                                 
                             }
                 
@@ -593,7 +604,7 @@ nav{
         .container-01 .wrapper .form-wrapper #checkbox .checklabel {
             font-size: 30px;
             text-align: center;
-            width:auto;
+            width:90%;
             left: 0%;
         
             
@@ -607,140 +618,19 @@ nav{
         }
        
        
-       
-    }   
-    #submitimg{
-       margin-top: 0%;
-    }
-    #SImg{
-        top: 82%;
-        a{
-        font-size: 39px;
-        padding-top: 4%;}
-        margin-top: 15%;
-
-        
-    } 
-       main{
-        margin-top: -20%;
-        padding-top:20% ;
-        .button{
-            margin-top: -10%;
-            a{
-                font-size: 35px;
-            }
-            img {
-                height: 40px;
+    
+        .submit-wrapper{
+            margin-bottom: -5%;
+            img{
                 width: 50%;
+                height: 40px;
             }
-        }
-        .container-01{
-            .wrapper{
-                .form-wrapper{
-                    text-align: start;
-                    .form{
-                        display: block;
-                        .name{
-                                display: flex;
-                                flex-direction: column;
-                                align-items: center ;
-                            label{
-                                width: 100%;
-                                text-align: center;
-                            }
-                            input{
-                                width: 80%;
-                            }
-                        }
-                        
-                        .street{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center ;
-                            label{
-                                width: 100%;
-                                text-align: center;
-                            }
-                            input{
-                                width: 80%;
-                            }
-                            .state{
-                                width: 81%;
-                            }
-                        }
-                        }
-                    
-                        .email{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center ;
-                            label{
-                                width: 100%;
-                                text-align: center;
-                            }
-                            input{
-                                width: 80%;
-                            }
-                        }
-                        .phone{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center ;
-                            label{
-                                width: 100%;
-                                text-align: center;
-                            }
-                            input{
-                                width: 80%;
-                            }
-                        }
-                        .number{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center ;
-                            label{
-                                width: 100%;
-                                text-align: center;
-                            }
-                            input{
-                                width: 80%;
-                            }
-                            .state{
-                                width: 80%;
-                                input{
-                                    width: 25%;
-                                }
-                            }
-                        }
-                        #checkbox{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            label{
-                               width: 100%;
-                               text-align: center;
-                              
-                           }
-                       }
-                    }
-
-                   
-                }
-                
-            }
-            .submit-wrapper{
-                margin-bottom: -5%;
-                img{
-                    width: 50%;
-                    height: 40px;
-                }
-                a{
-                    font-size: 33px;
-                }
+            a{
+                font-size: 33px;
             }
         }
     
-       }
+    } 
     .linebottom{
         height: 5px;
     }
@@ -792,6 +682,7 @@ nav{
                     margin: 2% 0;
                     padding: 1%;
                     height: 30px;
+                    text-align: center;
 
                 }
                 .mail{
@@ -812,14 +703,16 @@ nav{
                     padding: 1%;
                     
                 }
-                
+                .container input[type=submit i]{
+                    font-size: 15px;
+                    width: 50%;
+                    height: 30px;
+                    
+                            
+                } 
             }
-            .container input[type=submit i]{
-                width: auto;
-                height: 24px;
-                font-size: 15px;
-                        
-            }
+             
+            
         }
     
     .end{
@@ -829,3 +722,5 @@ nav{
         font-size: 12px;
     }
     
+}
+}
