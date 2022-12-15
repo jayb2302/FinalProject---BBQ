@@ -418,119 +418,171 @@ body{
         }
 
         footer{
-        font-family: 'Helvetica';
-        display: flex;
-        justify-content: center;
-        background-color: #29221C;
-        color: white;
-        padding: 30px 100px;
-        .col-1{
-        width: 33%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-
-        .footericon{
+            font-family: 'Helvetica';
             display: flex;
-            flex-direction: row;
-            margin: 0;
-            margin-bottom: 4%;
-        }
-        p{
-            padding-left: 5%;
-            margin-bottom: 15px;
-            padding-top: 2%;
-        }
-        }
-        .col-2{
-        width: 33%;
-        display: flex;
-        align-items: center;
-        position: relative;
-        flex-direction: column;
-        justify-content: center;
-
-        .icon-wrapper{
-            display: flex;
-            width: 15%; 
-            margin-top: 5%;
-            justify-content: space-between;
-            .icon{
-                
-                text-align: center;
-                display: inline-block;
-            
-            
-            
-            } 
-        }
-
-
-        }
-        .col-3{
-        width: 33%;
-        display: flex;
-        justify-content: center;
-        form{
-            
-            width: 60%;
-            text-align: center;
-
-            h3{
-                margin-bottom: 15px;
+            justify-content: center;
+            background-color: #29221C;
+            color: white;
+            padding: 3% 5%;
+            .col-1{
+                width: 33%;
                 display: flex;
                 justify-content: center;
-                margin-bottom: 4%;
-            }
-            .name{
-                margin:0 0 7% 0;
-                border-radius: 25px;
-                padding: 3%;
-                width: 120%;
-            }
-            .mail{
-                margin: 0;
-                border-radius: 25px; 
-                padding: 3%;
-                width: 120%;
-            
-            }
-            .container{
-                display: flex;
                 flex-direction: column;
-                align-items: center;
-                margin-top: 7%;
-                input[type="submit" i] {
-                    width: 41%;
-                    height: 44px;
-                    background-image: url(../IMG/submit.svg);
-                    border-radius: 35px;
-                    border-color: transparent;
-                    background-color: transparent;
-                    background-repeat: no-repeat;
-                    background-size: 101%;
-                    background-position-y: -2.5px;
-                    background-position-x: -1px;
-                    margin:0;
-                    color: $title-color;
-                    font-family: 'Buffalo';
-                    font-size: 25px;
-                    margin-top: 1%;
-                    padding-bottom: 0%;
+                div{
+                    img{
+                        width:8%;
+                        margin-right: 5% ;
+                    }
                 }
-                
+                p{
+                    margin-top: 3%;
+                }
             }
-
-        }
-
-        }
+            .col-2{
+                width: 33%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .col-3{
+                width: 33%;
+                display: flex;
+                justify-content: center;
+                h3{
+                    margin-bottom: 4%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .name{
+                    margin: 7% 0;
+                    border-radius: 25px;
+                    padding: 3%;
+                    width: 120%;
+                }
+                .mail{
+                    margin: 0;
+                    border-radius: 25px; 
+                    padding: 3%;
+                    width: 120%;
+                }
+                .container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    input[type="submit" i] {
+                        width: 41%;
+                        height: 44px;
+                        background-image: url(../IMG/submit.svg);
+                        border-radius: 35px;
+                        border-color: transparent;
+                        background-color: transparent;
+                        background-repeat: no-repeat;
+                        background-size: 101%;
+                        background-position-y: -2.5px;
+                        background-position-x: -1px;
+                        margin:0;
+                        color: $title-color;
+                        font-family: 'Buffalo';
+                        font-size: 25px;
+                        margin-top: 7%;
+                        padding-bottom: 0%;
+                    }
+                }
+            }
         }
         .end{
-        display: flex;
-        justify-content: center;
-        background-color: $shadow;
-        color: $title-color;
-        padding: 1%;
-        margin-top: -3%;
+            display: flex;
+            justify-content: center;
+            background-color: $shadow;
+            color: $title-color;
+            padding: 1%;
+            margin-top: -3%;
         }
-}
+        @media screen and (max-width: 600px){
+            nav{
+                ul{
+                    .navbarimg{
+                        height: 40px;
+                    }
+                    
+                    li{
+                        width: 20%;
+                        height: 28px;
+                        a{
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+        .linebottom{
+            height: 5px;
+        }
+            footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-direction: column;
+                .col-1{
+                    width: 100%;
+                    font-size: 13px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-bottom: 2%;
+                    div{
+                        justify-content: center;
+                        img{
+                            width: 20%;
+                        }
+                        p{
+                            display: none;
+                        }
+                    }
+                    .phone{
+                        display: flex;
+                        justify-content: end;
+                    }
+                    .location{
+                        display: flex;
+                        justify-content: start;
+                    }
+                }
+                .col-2{
+                    display: none;
+                }
+                .col-3{
+                    width: 100%;
+                    font-size: 12px;
+                    .container{
+                        p{
+                            display: none;
+                        }
+                    }
+                    .container{
+                        .name{
+                            width: 100%;
+                            margin: 2% 0;
+                            padding: 1%;
+                        }
+                        .mail{
+                            width: 100%;
+                            padding: 1%;
+                        }
+                    }
+                    .container input[type=submit i]{
+                        width: auto;
+                        height: 24px;
+                        font-size: 15px;
+                    }
+        
+                }
+            }
+            .end{
+                padding: 1% 5%;
+                display: flex;
+                justify-content: center;
+                font-size: 12px;
+            }
+        }
+    }

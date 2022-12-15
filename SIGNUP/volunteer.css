@@ -373,6 +373,10 @@ body footer .col-1 {
   justify-content: center;
   flex-direction: column;
 }
+body footer .col-1 div img {
+  width: 8%;
+  margin-right: 5%;
+}
 body footer .col-1 p {
   margin-top: 3%;
 }
@@ -434,4 +438,80 @@ body .end {
   color: #e07837;
   padding: 1%;
   margin-top: -3%;
+}
+@media screen and (max-width: 600px) {
+  body nav ul .navbarimg {
+    height: 40px;
+  }
+  body nav ul li {
+    width: 20%;
+    height: 28px;
+  }
+  body nav ul li a {
+    font-size: 28px;
+  }
+  body .linebottom {
+    height: 5px;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  body footer .col-1 {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  body footer .col-1 div {
+    justify-content: center;
+  }
+  body footer .col-1 div img {
+    width: 20%;
+  }
+  body footer .col-1 div p {
+    display: none;
+  }
+  body footer .col-1 .phone {
+    display: flex;
+    justify-content: end;
+  }
+  body footer .col-1 .location {
+    display: flex;
+    justify-content: start;
+  }
+  body footer .col-2 {
+    display: none;
+  }
+  body footer .col-3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  body footer .col-3 .container p {
+    display: none;
+  }
+  body footer .col-3 .container .name {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+  }
+  body footer .col-3 .container .mail {
+    width: 100%;
+    padding: 1%;
+  }
+  body footer .col-3 .container input[type=submit i] {
+    width: auto;
+    height: 24px;
+    font-size: 15px;
+  }
+  body .end {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=volunteer.css.map */

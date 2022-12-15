@@ -382,7 +382,7 @@ body footer {
   justify-content: center;
   background-color: #29221C;
   color: white;
-  padding: 30px 100px;
+  padding: 3% 5%;
 }
 body footer .col-1 {
   width: 33%;
@@ -390,69 +390,47 @@ body footer .col-1 {
   justify-content: center;
   flex-direction: column;
 }
-body footer .col-1 .footericon {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  margin-bottom: 4%;
+body footer .col-1 div img {
+  width: 8%;
+  margin-right: 5%;
 }
 body footer .col-1 p {
-  padding-left: 5%;
-  margin-bottom: 15px;
-  padding-top: 2%;
+  margin-top: 3%;
 }
 body footer .col-2 {
   width: 33%;
   display: flex;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
   justify-content: center;
-}
-body footer .col-2 .icon-wrapper {
-  display: flex;
-  width: 15%;
-  margin-top: 5%;
-  justify-content: space-between;
-}
-body footer .col-2 .icon-wrapper .icon {
-  text-align: center;
-  display: inline-block;
+  flex-wrap: wrap;
 }
 body footer .col-3 {
   width: 33%;
   display: flex;
   justify-content: center;
 }
-body footer .col-3 form {
-  width: 60%;
-  text-align: center;
-}
-body footer .col-3 form h3 {
-  margin-bottom: 15px;
+body footer .col-3 h3 {
+  margin-bottom: 4%;
   display: flex;
   justify-content: center;
-  margin-bottom: 4%;
 }
-body footer .col-3 form .name {
-  margin: 0 0 7% 0;
+body footer .col-3 .name {
+  margin: 7% 0;
   border-radius: 25px;
   padding: 3%;
   width: 120%;
 }
-body footer .col-3 form .mail {
+body footer .col-3 .mail {
   margin: 0;
   border-radius: 25px;
   padding: 3%;
   width: 120%;
 }
-body footer .col-3 form .container {
+body footer .col-3 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 7%;
 }
-body footer .col-3 form .container input[type=submit i] {
+body footer .col-3 .container input[type=submit i] {
   width: 41%;
   height: 44px;
   background-image: url(../IMG/submit.svg);
@@ -467,7 +445,7 @@ body footer .col-3 form .container input[type=submit i] {
   color: #e07837;
   font-family: "Buffalo";
   font-size: 25px;
-  margin-top: 1%;
+  margin-top: 7%;
   padding-bottom: 0%;
 }
 body .end {
@@ -477,4 +455,80 @@ body .end {
   color: #e07837;
   padding: 1%;
   margin-top: -3%;
+}
+@media screen and (max-width: 600px) {
+  body nav ul .navbarimg {
+    height: 40px;
+  }
+  body nav ul li {
+    width: 20%;
+    height: 28px;
+  }
+  body nav ul li a {
+    font-size: 28px;
+  }
+  body .linebottom {
+    height: 5px;
+  }
+  body footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  body footer .col-1 {
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+  body footer .col-1 div {
+    justify-content: center;
+  }
+  body footer .col-1 div img {
+    width: 20%;
+  }
+  body footer .col-1 div p {
+    display: none;
+  }
+  body footer .col-1 .phone {
+    display: flex;
+    justify-content: end;
+  }
+  body footer .col-1 .location {
+    display: flex;
+    justify-content: start;
+  }
+  body footer .col-2 {
+    display: none;
+  }
+  body footer .col-3 {
+    width: 100%;
+    font-size: 12px;
+  }
+  body footer .col-3 .container p {
+    display: none;
+  }
+  body footer .col-3 .container .name {
+    width: 100%;
+    margin: 2% 0;
+    padding: 1%;
+  }
+  body footer .col-3 .container .mail {
+    width: 100%;
+    padding: 1%;
+  }
+  body footer .col-3 .container input[type=submit i] {
+    width: auto;
+    height: 24px;
+    font-size: 15px;
+  }
+  body .end {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=history.css.map */
