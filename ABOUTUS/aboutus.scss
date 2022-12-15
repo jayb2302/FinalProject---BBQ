@@ -496,63 +496,72 @@ body{
         }
     }
 }
-
 @media screen and (max-width: 600px){
-    
-    .linetop{
+    #logoimg{
+        height: 50px;
+        width: 50px;
+        
+    }
+    .linetop {
         display: none;
     }
     nav{
         ul{
             .navbarimg{
                 height: 40px;
+                display: none;
             }
             
             li{
-                width: 20%;
+                width: 80px;
                 height: 28px;
-                margin-top: -2%;
-               
                 a{
                     font-size: 28px;
-                    
                 }
             }
         }
     }
 main{
-     margin-top: -20%;
+    margin-top: -15%;
     .text{
         display: flex;
         flex-direction: column;
         .grlishop{
-            p.title{
-                font-size: 35px;
-            }
+            margin: 0;
+            margin-top: 2%;
             p{
                 text-align: center;
+                padding-left: 7%;
+                padding-right: 7%;
             }
             div{
                 display: flex;
                 justify-content: center;
                 margin-top: 5%;
             }
+            img{
+                width: 40%;
+            }
+           
         }
-        .grlishop img{
-            width: 40%;
-        }
+       
     .competition{
-        margin: 5% 10% 10% 10%;
-        p.title{
-            font-size: 35px;
-        }
+        margin: 0;
         p{
             text-align: center;
+            padding-left: 7%;
+            padding-right: 7%;
         }
     }
     }
-      .gridscroll img {
-        width: 40%;
+    .scroll-container{
+        margin-top: 1%;
+        display: block;
+    }
+    .gridscroll img {
+    width: 250px; 
+    height: 250px;  
+    
     }
 }
 .linebottom{
@@ -563,7 +572,6 @@ main{
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: column;
-        
         .col-1{
             width: 100%;
             font-size: 13px;
@@ -602,21 +610,24 @@ main{
             }
             .container{
                 .name{
-                    width: 100%;
+                    width: 150%;
                     margin: 2% 0;
                     padding: 1%;
-                    text-align: center;
+                    height: 30px;
 
-                    
                 }
                 .mail{
-                    text-align: center;
-                    width: 100%;
+                    width: 150%;
                     padding: 1%;
-                    
+                    height: 30px;
                 }
             }
-            
+            .container input[type=submit i]{
+                width: auto;
+                height: 24px;
+                font-size: 15px;
+                
+            }
 
         }
     }
@@ -627,4 +638,5 @@ main{
         font-size: 12px;
     }
 }
+
    

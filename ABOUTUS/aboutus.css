@@ -457,32 +457,39 @@ body .end {
 }
 
 @media screen and (max-width: 600px) {
+  #logoimg {
+    height: 50px;
+    width: 50px;
+  }
   .linetop {
     display: none;
   }
   nav ul .navbarimg {
     height: 40px;
+    display: none;
   }
   nav ul li {
-    width: 20%;
+    width: 80px;
     height: 28px;
-    margin-top: -2%;
   }
   nav ul li a {
     font-size: 28px;
   }
   main {
-    margin-top: -20%;
+    margin-top: -15%;
   }
   main .text {
     display: flex;
     flex-direction: column;
   }
-  main .text .grlishop p.title {
-    font-size: 35px;
+  main .text .grlishop {
+    margin: 0;
+    margin-top: 2%;
   }
   main .text .grlishop p {
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
   }
   main .text .grlishop div {
     display: flex;
@@ -493,16 +500,20 @@ body .end {
     width: 40%;
   }
   main .text .competition {
-    margin: 5% 10% 10% 10%;
-  }
-  main .text .competition p.title {
-    font-size: 35px;
+    margin: 0;
   }
   main .text .competition p {
     text-align: center;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  main .scroll-container {
+    margin-top: 1%;
+    display: block;
   }
   main .gridscroll img {
-    width: 40%;
+    width: 250px;
+    height: 250px;
   }
   .linebottom {
     height: 5px;
@@ -549,15 +560,20 @@ body .end {
     display: none;
   }
   footer .col-3 .container .name {
-    width: 100%;
+    width: 150%;
     margin: 2% 0;
     padding: 1%;
-    text-align: center;
+    height: 30px;
   }
   footer .col-3 .container .mail {
-    text-align: center;
-    width: 100%;
+    width: 150%;
     padding: 1%;
+    height: 30px;
+  }
+  footer .col-3 .container input[type=submit i] {
+    width: auto;
+    height: 24px;
+    font-size: 15px;
   }
   .end {
     padding: 1% 5%;
