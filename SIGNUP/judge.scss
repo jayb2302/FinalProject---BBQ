@@ -626,6 +626,7 @@ nav{
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: column;
+        
         .col-1{
             width: 100%;
             font-size: 13px;
@@ -675,14 +676,27 @@ nav{
                     padding: 1%;
                     height: 30px;
                 }
+                    width: 100%;
+                    margin: 2% 0;
+                    padding: 1%;
+                    text-align: center;
+    
+                    
+                }
+                .mail{
+                    text-align: center;
+                    width: 100%;
+                    padding: 1%;
+                    
+                }
+                
             }
             .container input[type=submit i]{
                 width: auto;
                 height: 24px;
                 font-size: 15px;
-                
+                        
             }
-
         }
     }
     .end{
@@ -691,4 +705,7 @@ nav{
         justify-content: center;
         font-size: 12px;
     }
-}
+    
+ 
+    
+
