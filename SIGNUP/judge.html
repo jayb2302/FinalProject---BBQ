@@ -11,7 +11,7 @@
 <body>
     <div id="logo" >
         <a href="../index.html">
-            <img src="../IMG/LogoTBS.png" alt="" style="height:100px; width: 150px; margin-top: 0.5%; margin-bottom: 0.5%; ">
+            <img id="logoimg" src="../IMG/LogoTBS.png" alt="" style="height:100px; width: 150px; margin-top: 0.5%; margin-bottom: 0.5%; ">
         </a>
     </div> 
     <img class="linetop" src="../IMG/line.svg" alt="">
@@ -25,10 +25,10 @@
                 <li><a href="../HISTORY/history.html#third">BBQ Tradition</a></li>
                 <li style="border-radius: 0px 0px 25px 25px;"><a href="../HISTORY/history.html#fourth">4 Main styles</a></li>
             </ul> 
-            <li><a href="../ABOUTUS/aboutus.html">About us</a></li>
+            <li><a href="../ABOUTUS/aboutus.html">AboutUs</a></li>
             
                 
-            <li class="show"><a href="">Join us</a></li>
+            <li class="show"><a href="">JoinUs</a></li>
             <ul style="left: 56%;  " class="hide">
                 <li style="padding-top: 15%;"><a href="../SIGNUP/judge.html">Judge SignUp</a></li>
                 <li style="border-radius: 0px 0px 25px 25px;"><a href="/SIGNUP/volunteer.html">Volunteer</a></li>
@@ -37,8 +37,8 @@
    </nav>
    <main>
     <div class="button">
-        <img src="../IMG/button2.svg" style="height: 80px ; width: 30%;" alt="">
-        <a >Judge SignUp</a>
+        <img id="Btn" src="../IMG/button2.svg" style="height: 80px ; width: 30%;" alt="">
+        <a class="judge">Judge SignUp</a>
     </div>
     <div class="container-01">
         <div class="wrapper">
@@ -86,7 +86,7 @@
                 
 
                 <form id="checkbox" action="">
-                    <label for="ticketNum">I am also a Certified Table Captain</label>
+                    <label class="checklabel" for="ticketNum">I am also a Certified Table Captain</label>
                     <label class="form-control">
                     <input type="checkbox" name="checkbox" />
                         Yes
@@ -95,7 +95,7 @@
                         <input type="checkbox" name="checkbox" />
                         No
                     </label>
-                    <label for="ticketNum">Gender</label>
+                    <label class="checklabel" for="ticketNum">Gender</label>
                      <label class="form-control">
                          <input type="checkbox" name="checkbox" />
                          Male
@@ -113,9 +113,9 @@
         </div>
         
     </div>
-    <div class="submit-wrapper">
-        <img src="../IMG/submit.svg" style="width:20%; height: 80px  ;" alt="">
-        <a href="KIDS/kids.html">Submit</a>
+    <div id="SImg" class="submit-wrapper">
+        <img id="submitimg" src="../IMG/submit.svg" style="width:20%; height: 80px  ;" alt="">
+        <a id="submit" href="">Submit</a>
     </div>
    </main>
    <img class="linebottom" src="../IMG/line.svg" alt="">
