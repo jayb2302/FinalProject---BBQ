@@ -134,6 +134,10 @@ main {
 main video {
   margin-top: 1%;
 }
+main .belt {
+  width: 100%;
+  height: 60px;
+}
 main .buttons {
   display: flex;
   justify-content: center;
@@ -280,17 +284,16 @@ footer .col-3 .container input[type=submit i] {
   nav ul li {
     width: 30%;
   }
-  .navimgwrap .navbarimg {
-    height: 40px;
-  }
   main video {
     margin-top: -15%;
+  }
+  main .belt {
+    height: 15px;
   }
   main .buttons .button img {
     height: none;
   }
   main .buttons .button a {
-    top: 34.5%;
     font-size: 20px;
   }
   main .buttons .button .dop {
