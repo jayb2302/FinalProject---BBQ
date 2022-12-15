@@ -30,7 +30,7 @@ body .linetop {
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px -3px 5px #707070;
+  box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
 body .navbarimg {
@@ -153,7 +153,7 @@ body main .container-01 .textbox-01 {
   width: 50%;
   height: 410px;
   background-color: #29221C;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
   color: #f2f2f2;
@@ -201,7 +201,7 @@ body main .container-02 .textbox-02 {
   text-align: center;
   position: relative;
   margin-top: 0;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -247,7 +247,7 @@ body main .container-03 .textbox-03 {
   text-align: center;
   position: relative;
   margin-top: 0;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -325,7 +325,7 @@ body main .container-04 .textbox-04 {
   position: relative;
   margin-top: 0;
   margin-right: 1%;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -337,7 +337,7 @@ body main .container-04 .textbox-05 {
   text-align: center;
   position: relative;
   margin-top: 0;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -351,7 +351,7 @@ body main .container-04 .textbox-06 {
   position: relative;
   margin-top: 2%;
   margin-bottom: 5%;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -365,7 +365,7 @@ body main .container-04 .textbox-07 {
   margin-top: 2%;
   margin-left: 0.5%;
   margin-bottom: 5%;
-  border-color: #707070;
+  border-color: #ceb38d;
   border: 0.5 px;
   border-style: solid;
 }
@@ -375,7 +375,7 @@ body .linebottom {
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px -3px 5px #707070;
+  box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
 body footer {

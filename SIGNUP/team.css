@@ -30,7 +30,7 @@ body .linetop {
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px -3px 5px #707070;
+  box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
 body .navbarimg {
@@ -165,7 +165,7 @@ body main .button a {
 body main .container-01 {
   width: 100%;
   height: auto;
-  box-sizing: #707070;
+  box-sizing: #ceb38d;
   border-width: 1px;
   position: relative;
   display: flex;
@@ -352,7 +352,7 @@ body .linebottom {
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px -3px 5px #707070;
+  box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
 body footer {
