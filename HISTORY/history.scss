@@ -148,8 +148,10 @@ body{
         width: 100%;
         position: relative;
         display: block;
-        background-image: url(../IMG/rustybackground.png);
+        background-image: url(../IMG/Background.png);
+        background-color: rgba(32, 23, 9, 0.4);
         background-repeat: repeat-y;
+        background-blend-mode: darken;
 
         z-index: -1;
 
