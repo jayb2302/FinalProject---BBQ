@@ -33,13 +33,6 @@ body .linetop {
   box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
-body .navbarimg {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  margin-top: -0.5%;
-  pointer-events: none;
-}
 body nav {
   position: relative;
   margin-top: -0.5%;
@@ -57,6 +50,14 @@ body nav ul {
   z-index: 3;
   width: 100%;
   position: relative;
+}
+body nav ul .navbarimg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: -0.5%;
+  pointer-events: none;
+  height: 80px;
 }
 body nav ul li {
   list-style-type: none;
@@ -152,6 +153,8 @@ body main .button img {
   display: flex;
   justify-content: center;
   position: relative;
+  height: 80px;
+  width: 30%;
 }
 body main .button a {
   position: absolute;
@@ -321,6 +324,8 @@ body main .submit-wrapper img {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 20%;
+  height: 80px;
 }
 body main .submit-wrapper a {
   position: absolute;
@@ -431,70 +436,178 @@ body .end {
   body nav ul li a {
     font-size: 28px;
   }
-  body .linebottom {
-    height: 5px;
+  body main {
+    margin-top: -20%;
+    padding-top: 20%;
   }
-  body footer {
+  body main .button {
+    margin-top: -10%;
+  }
+  body main .button a {
+    font-size: 35px;
+  }
+  body main .button img {
+    height: 40px;
+    width: 50%;
+  }
+  body main .container-01 .wrapper .form-wrapper {
+    text-align: start;
+  }
+  body main .container-01 .wrapper .form-wrapper .form {
+    display: block;
+  }
+  body main .container-01 .wrapper .form-wrapper .form .name {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: center;
   }
-  body footer .col-1 {
+  body main .container-01 .wrapper .form-wrapper .form .name label {
     width: 100%;
-    font-size: 13px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 2%;
-  }
-  body footer .col-1 div {
-    justify-content: center;
-  }
-  body footer .col-1 div img {
-    width: 20%;
-  }
-  body footer .col-1 div p {
-    display: none;
-  }
-  body footer .col-1 .phone {
-    display: flex;
-    justify-content: end;
-  }
-  body footer .col-1 .location {
-    display: flex;
-    justify-content: start;
-  }
-  body footer .col-2 {
-    display: none;
-  }
-  body footer .col-3 {
-    width: 100%;
-    font-size: 12px;
-  }
-  body footer .col-3 .container p {
-    display: none;
-  }
-  body footer .col-3 .container .name {
-    width: 100%;
-    margin: 2% 0;
-    padding: 1%;
     text-align: center;
   }
-  body footer .col-3 .container .mail {
-    text-align: center;
-    width: 100%;
-    padding: 1%;
+  body main .container-01 .wrapper .form-wrapper .form .name input {
+    width: 80%;
   }
-  body footer .col-3 .container input[type=submit i] {
-    width: auto;
-    height: 24px;
-    font-size: 15px;
-  }
-  body .end {
-    padding: 1% 5%;
+  body main .container-01 .wrapper .form-wrapper .form .street {
     display: flex;
-    justify-content: center;
-    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
   }
+  body main .container-01 .wrapper .form-wrapper .form .street label {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .form .street input {
+    width: 80%;
+  }
+  body main .container-01 .wrapper .form-wrapper .form .street .state {
+    width: 81%;
+  }
+  body main .container-01 .wrapper .form-wrapper .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .email label {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .email input {
+    width: 80%;
+  }
+  body main .container-01 .wrapper .form-wrapper .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .phone label {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .phone input {
+    width: 80%;
+  }
+  body main .container-01 .wrapper .form-wrapper .number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .number label {
+    width: 100%;
+    text-align: center;
+  }
+  body main .container-01 .wrapper .form-wrapper .number input {
+    width: 80%;
+  }
+  body main .container-01 .wrapper .form-wrapper .number .state {
+    width: 80%;
+  }
+  body main .container-01 .wrapper .form-wrapper .number .state input {
+    width: 25%;
+  }
+  body main .container-01 .wrapper .form-wrapper #checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .container-01 .wrapper .form-wrapper #checkbox label {
+    width: 100%;
+    text-align: center;
+  }
+  body main .submit-wrapper {
+    margin-bottom: -5%;
+  }
+  body main .submit-wrapper img {
+    width: 50%;
+    height: 40px;
+  }
+  body main .submit-wrapper a {
+    font-size: 33px;
+  }
+}
+body .linebottom {
+  height: 5px;
+}
+body footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+body footer .col-1 {
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+body footer .col-1 div {
+  justify-content: center;
+}
+body footer .col-1 div img {
+  width: 20%;
+}
+body footer .col-1 div p {
+  display: none;
+}
+body footer .col-1 .phone {
+  display: flex;
+  justify-content: end;
+}
+body footer .col-1 .location {
+  display: flex;
+  justify-content: start;
+}
+body footer .col-2 {
+  display: none;
+}
+body footer .col-3 {
+  width: 100%;
+  font-size: 12px;
+}
+body footer .col-3 .container p {
+  display: none;
+}
+body footer .col-3 .container .name {
+  width: 100%;
+  margin: 2% 0;
+  padding: 1%;
+  text-align: center;
+}
+body footer .col-3 .container .mail {
+  text-align: center;
+  width: 100%;
+  padding: 1%;
+}
+body footer .col-3 .container input[type=submit i] {
+  width: auto;
+  height: 24px;
+  font-size: 15px;
+}
+body .end {
+  padding: 1% 5%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
 }/*# sourceMappingURL=judge.css.map */

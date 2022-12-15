@@ -33,13 +33,6 @@ body .linetop {
   box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
-body .navbarimg {
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  margin-top: -0.5%;
-  pointer-events: none;
-}
 body nav {
   position: relative;
   margin-top: -0.5%;
@@ -57,6 +50,14 @@ body nav ul {
   z-index: 3;
   width: 100%;
   position: relative;
+}
+body nav ul .navbarimg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: -0.5%;
+  pointer-events: none;
+  height: 80px;
 }
 body nav ul li {
   list-style-type: none;
@@ -158,6 +159,10 @@ main .program .col-1 {
   font-size: 80px;
   background-color: rgba(41, 34, 28, 0.6392156863);
 }
+main .program .col-1 p.title {
+  font-size: 35px;
+  margin-top: -1.5%;
+}
 main .program .col-1 .information {
   font-size: 30px;
   margin: 0 5%;
@@ -173,6 +178,10 @@ main .program .col-2 {
   color: #f2f2f2;
   font-size: 80px;
   background-color: rgba(41, 34, 28, 0.6392156863);
+}
+main .program .col-2 p.title {
+  font-size: 35px;
+  margin-top: -1.5%;
 }
 main .program .col-2 .information {
   font-size: 30px;
@@ -266,26 +275,61 @@ footer .col-3 .container input[type=submit i] {
 }
 
 @media screen and (max-width: 600px) {
-  nav ul .navbarimg {
+  body nav ul .navbarimg {
     height: 40px;
   }
-  nav ul li {
+  body nav ul li {
     width: 20%;
     height: 28px;
   }
-  nav ul li a {
+  body nav ul li a {
     font-size: 28px;
   }
-  .linebottom {
+  body main {
+    margin-top: -20%;
+  }
+  body main .text {
+    display: none;
+  }
+  body main .program {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  body main .program .col-1 {
+    margin-top: 15%;
+    width: 90%;
+    font-size: 40px;
+  }
+  body main .program .col-1 p.title {
+    font-size: 25px;
+  }
+  body main .program .col-1 .information {
+    font-size: 20px;
+    display: flex;
+  }
+  body main .program .col-2 {
+    width: 90%;
+    margin-top: 10%;
+    font-size: 40px;
+  }
+  body main .program .col-2 p.title {
+    font-size: 25px;
+  }
+  body main .program .col-2 .information {
+    font-size: 20px;
+  }
+  body .linebottom {
     height: 5px;
   }
-  footer {
+  body footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
   }
-  footer .col-1 {
+  body footer .col-1 {
     width: 100%;
     font-size: 13px;
     display: flex;
@@ -293,50 +337,50 @@ footer .col-3 .container input[type=submit i] {
     justify-content: center;
     margin-bottom: 2%;
   }
-  footer .col-1 div {
+  body footer .col-1 div {
     justify-content: center;
   }
-  footer .col-1 div img {
+  body footer .col-1 div img {
     width: 20%;
   }
-  footer .col-1 div p {
+  body footer .col-1 div p {
     display: none;
   }
-  footer .col-1 .phone {
+  body footer .col-1 .phone {
     display: flex;
     justify-content: end;
   }
-  footer .col-1 .location {
+  body footer .col-1 .location {
     display: flex;
     justify-content: start;
   }
-  footer .col-2 {
+  body footer .col-2 {
     display: none;
   }
-  footer .col-3 {
+  body footer .col-3 {
     width: 100%;
     font-size: 12px;
   }
-  footer .col-3 .container p {
+  body footer .col-3 .container p {
     display: none;
   }
-  footer .col-3 .container .name {
+  body footer .col-3 .container .name {
     width: 100%;
     margin: 2% 0;
     padding: 1%;
     text-align: center;
   }
-  footer .col-3 .container .mail {
+  body footer .col-3 .container .mail {
     text-align: center;
     width: 100%;
     padding: 1%;
   }
-  footer .col-3 .container input[type=submit i] {
+  body footer .col-3 .container input[type=submit i] {
     width: auto;
     height: 24px;
     font-size: 15px;
   }
-  .end {
+  body .end {
     padding: 1% 5%;
     display: flex;
     justify-content: center;
