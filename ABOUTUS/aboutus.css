@@ -471,8 +471,38 @@ body .end {
   nav ul li a {
     font-size: 28px;
   }
+  main {
+    margin-top: -20%;
+  }
+  main .text {
+    display: flex;
+    flex-direction: column;
+  }
+  main .text .grlishop p.title {
+    font-size: 35px;
+  }
+  main .text .grlishop p {
+    text-align: center;
+  }
+  main .text .grlishop div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  main .text .grlishop img {
+    width: 40%;
+  }
+  main .text .competition {
+    margin: 5% 10% 10% 10%;
+  }
+  main .text .competition p.title {
+    font-size: 35px;
+  }
+  main .text .competition p {
+    text-align: center;
+  }
   main .gridscroll img {
-    height: 30px;
+    width: 40%;
   }
   .linebottom {
     height: 5px;

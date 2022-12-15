@@ -520,12 +520,39 @@ body{
             }
         }
     }
-    main{
-     
-     
-      
-    .gridscroll img{
-        height: 30px;
+main{
+     margin-top: -20%;
+    .text{
+        display: flex;
+        flex-direction: column;
+        .grlishop{
+            p.title{
+                font-size: 35px;
+            }
+            p{
+                text-align: center;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                margin-top: 5%;
+            }
+        }
+        .grlishop img{
+            width: 40%;
+        }
+    .competition{
+        margin: 5% 10% 10% 10%;
+        p.title{
+            font-size: 35px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    }
+      .gridscroll img {
+        width: 40%;
     }
 }
 .linebottom{

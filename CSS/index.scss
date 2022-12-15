@@ -146,27 +146,26 @@ main{
     z-index: 20;
 
     video{
-        margin-top: 2%;
-        height: fit-content;
+
+
+        margin-top: -1.5%;
         
     }
     .belt{
         width: 100%;
         height: 60px;
-        margin-top: -0.5%;
+        margin-top: -4%;
         z-index: 2;
     }
     
     .buttons{
         display: flex;
-       
         justify-content: center;
         align-items: center;
         width: 100%;
         height: auto;
         margin-top: -2%;
-      
-
+    
         
         .button{
             display: flex;
@@ -352,10 +351,11 @@ footer{
     }
     main{
        video{
-           margin-top: -15%;
+           margin-top: -18%;
         }
       .belt{
           height: 15px;
+          margin-top: -10%;
       }
       .buttons{
         .button{
