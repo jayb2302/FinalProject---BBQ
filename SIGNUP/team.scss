@@ -509,6 +509,7 @@ nav{
         margin-top: -3%;
     }
     @media screen and (max-width: 600px){
+    
         nav{
             ul{
                 .navbarimg{
@@ -520,6 +521,15 @@ nav{
                     height: 28px;
                     a{
                         font-size: 28px;
+                    }
+                }
+                .hide{
+                    width: 40%;
+                    margin-left: -24%;
+                    li{
+                        a{
+                            font-size: 17px;
+                        }
                     }
                 }
             }

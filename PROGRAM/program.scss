@@ -284,21 +284,30 @@ footer{
 }
 @media screen and (max-width: 600px){
     body{
-    nav{
-        ul{
-            .navbarimg{
-                height: 40px;
-            }
-            
-            li{
-                width: 20%;
-                height: 28px;
-                a{
-                    font-size: 28px;
+        nav{
+            ul{
+                .navbarimg{
+                    height: 40px;
+                }
+                
+                li{
+                    width: 20%;
+                    height: 28px;
+                    a{
+                        font-size: 28px;
+                    }
+                }
+                .hide{
+                    width: 40%;
+                    margin-left: -24%;
+                    li{
+                        a{
+                            font-size: 17px;
+                        }
+                    }
                 }
             }
         }
-    }
     main{
         margin-top: -20%;
         .text{

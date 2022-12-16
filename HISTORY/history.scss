@@ -515,8 +515,17 @@ body{
                             font-size: 28px;
                         }
                     }
+                    .hide{
+                        width: 40%;
+                        margin-left: -24%;
+                        li{
+                            a{
+                                font-size: 17px;
+                            }
+                        }
+                    }
                 }
-            }
+            }  
         .linebottom{
             height: 5px;
         }

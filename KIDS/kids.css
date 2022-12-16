@@ -271,6 +271,13 @@ footer .col-3 .container input[type=submit i] {
   nav ul li a {
     font-size: 28px;
   }
+  nav ul .hide {
+    width: 40%;
+    margin-left: -24%;
+  }
+  nav ul .hide li a {
+    font-size: 17px;
+  }
   main {
     margin-top: -20%;
   }

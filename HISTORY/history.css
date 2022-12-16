@@ -378,8 +378,7 @@ body .linebottom {
   box-shadow: 0px -3px 5px #ceb38d;
   width: 100%;
 }
-
-footer {
+body footer {
   font-family: "Helvetica";
   display: flex;
   justify-content: center;
@@ -469,6 +468,13 @@ body .end {
   }
   body nav ul li a {
     font-size: 28px;
+  }
+  body nav ul .hide {
+    width: 40%;
+    margin-left: -24%;
+  }
+  body nav ul .hide li a {
+    font-size: 17px;
   }
   body .linebottom {
     height: 5px;
