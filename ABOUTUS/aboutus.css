@@ -46,7 +46,7 @@ body .linetop {
 body nav {
   position: relative;
   margin-top: -0.5%;
-  height: 100px;
+  height: 80px;
   margin-left: 0%;
   width: 100%;
   z-index: 2;
@@ -67,6 +67,9 @@ body nav ul .navbarimg {
   width: 100%;
   margin-top: -0.5%;
   pointer-events: none;
+  height: 80px;
+}
+body nav ul .navbarimg img {
   height: 80px;
 }
 body nav ul li {
@@ -461,70 +464,67 @@ body .end {
     height: 50px;
     width: 50px;
   }
-  .linetop {
-    display: none;
-  }
-  nav ul .navbarimg {
+  body nav ul .navbarimg {
     height: 40px;
-    display: none;
+    display: flex;
   }
-  nav ul li {
-    width: 80px;
+  body nav ul li {
+    width: 20%;
     height: 28px;
   }
-  nav ul li a {
+  body nav ul li a {
     font-size: 28px;
   }
-  main {
+  body main {
     margin-top: -15%;
   }
-  main .text {
+  body main .text {
     display: flex;
     flex-direction: column;
   }
-  main .text .grlishop {
+  body main .text .grlishop {
     margin: 0;
     margin-top: 2%;
   }
-  main .text .grlishop p {
+  body main .text .grlishop p {
     text-align: center;
     padding-left: 7%;
     padding-right: 7%;
   }
-  main .text .grlishop div {
+  body main .text .grlishop div {
     display: flex;
     justify-content: center;
     margin-top: 5%;
   }
-  main .text .grlishop img {
+  body main .text .grlishop img {
     width: 40%;
   }
-  main .text .competition {
+  body main .text .competition {
     margin: 0;
   }
-  main .text .competition p {
+  body main .text .competition p {
     text-align: center;
     padding-left: 7%;
     padding-right: 7%;
   }
-  main .scroll-container {
+  body main .scroll-container {
     margin-top: 1%;
     display: block;
   }
-  main .gridscroll img {
+  body main .gridscroll img {
     width: 250px;
     height: 250px;
   }
-  .linebottom {
+  body .linebottom {
     height: 5px;
   }
-  footer {
+  body footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
   }
-  footer .col-1 {
+  body footer .col-1 {
     width: 100%;
     font-size: 13px;
     display: flex;
@@ -532,50 +532,50 @@ body .end {
     justify-content: center;
     margin-bottom: 2%;
   }
-  footer .col-1 div {
+  body footer .col-1 div {
     justify-content: center;
   }
-  footer .col-1 div img {
+  body footer .col-1 div img {
     width: 20%;
   }
-  footer .col-1 div p {
+  body footer .col-1 div p {
     display: none;
   }
-  footer .col-1 .phone {
+  body footer .col-1 .phone {
     display: flex;
     justify-content: end;
   }
-  footer .col-1 .location {
+  body footer .col-1 .location {
     display: flex;
     justify-content: start;
   }
-  footer .col-2 {
+  body footer .col-2 {
     display: none;
   }
-  footer .col-3 {
+  body footer .col-3 {
     width: 100%;
     font-size: 12px;
   }
-  footer .col-3 .container p {
+  body footer .col-3 .container p {
     display: none;
   }
-  footer .col-3 .container .name {
+  body footer .col-3 .container .name {
     width: 150%;
     margin: 2% 0;
     padding: 1%;
     height: 30px;
   }
-  footer .col-3 .container .mail {
+  body footer .col-3 .container .mail {
     width: 150%;
     padding: 1%;
     height: 30px;
   }
-  footer .col-3 .container input[type=submit i] {
+  body footer .col-3 .container input[type=submit i] {
     width: auto;
     height: 24px;
     font-size: 15px;
   }
-  .end {
+  body .end {
     padding: 1% 5%;
     display: flex;
     justify-content: center;

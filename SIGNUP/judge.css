@@ -16,7 +16,7 @@
 
 body {
   z-index: 0;
-  position: relative;
+  width: 100%;
   background-image: url(../IMG/Background.png);
   background-repeat: repeat;
   background-blend-mode: darken;
@@ -25,25 +25,31 @@ body {
 }
 body #logo {
   text-align: center;
+  background-image: url(../IMG/Background.png);
+  background-repeat: repeat;
+  background-blend-mode: darken;
+  background-color: rgba(32, 23, 9, 0.6);
+  background-size: cover;
+  background-position-y: 55%;
   width: 100%;
   padding-bottom: 0.5%;
 }
 body .linetop {
-  z-index: 2;
+  z-index: 3;
   margin: 0;
   position: absolute;
   padding: 0;
   margin-top: -0.5%;
-  box-shadow: 0px 2px 5px #ceb38d;
+  box-shadow: 0px 2px 6px #ceb38d;
   width: 100%;
 }
 body nav {
   position: relative;
   margin-top: -0.5%;
-  height: 100px;
+  height: 80px;
   margin-left: 0%;
   width: 100%;
-  z-index: 4;
+  z-index: 2;
 }
 body nav ul {
   display: flex;
@@ -73,7 +79,7 @@ body nav ul li {
   -webkit-backdrop-filter: blur(1.5px);
           backdrop-filter: blur(1.5px);
   border-radius: 25px;
-  box-shadow: 0px 0px 7px #000000;
+  box-shadow: 0px 0px 5px #000000;
   width: 110px;
   height: 35px;
   text-align: center;
@@ -435,14 +441,11 @@ body .end {
   body .linetop {
     display: none;
   }
-  body nav ul {
-    width: 100%;
-  }
-  body nav ul .navbarimg {
-    display: none;
+  body nav ul img.navbarimg {
+    height: 40px;
   }
   body nav ul li {
-    width: 150px;
+    width: 20%;
     height: 28px;
   }
   body nav ul li a {

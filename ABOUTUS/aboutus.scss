@@ -40,7 +40,7 @@ body{
 
     position: relative;
     margin-top: -0.5%;
-    height: 100px;
+    height: 80px;
     margin-left: 0%;
     width: 100%;
     z-index: 2;
@@ -60,6 +60,9 @@ body{
             margin-top: -0.5%;
             pointer-events: none;
             height: 80px;
+            img{
+                height: 80px;
+            }
         }
         
         li{
@@ -502,18 +505,16 @@ body{
         width: 50px;
         
     }
-    .linetop {
-        display: none;
-    }
+    body{
     nav{
         ul{
             .navbarimg{
-                height: 40px;
-                display: none;
+                    height: 40px;
+                    display: flex;
             }
             
             li{
-                width: 80px;
+                width: 20%;
                 height: 28px;
                 a{
                     font-size: 28px;
@@ -638,5 +639,5 @@ main{
         font-size: 12px;
     }
 }
-
+}
    
