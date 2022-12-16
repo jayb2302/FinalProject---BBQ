@@ -27,15 +27,7 @@ body{
     }
 
 
-    .navbarimg{
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        margin-top: -0.5%;
-        pointer-events: none;
-        
-    }
-
+    
 nav{
     
     position: relative;
@@ -53,7 +45,15 @@ nav{
         z-index: 3;
         width: 100%;
         position: relative;
-        
+        .navbarimg{
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin-top: -0.5%;
+            pointer-events: none;
+            height: 80px;
+        }
+    
         li{
             list-style-type: none; 
             display: block;
@@ -162,6 +162,8 @@ nav{
                 display: flex;
                 justify-content: center;
                 position: relative;
+                height: 80px ; 
+                width: 30%;
             }
             a{
                 position: absolute;
@@ -399,7 +401,8 @@ nav{
                 display: flex;
                 justify-content: center;
                 position: relative;
-               
+                width:20%;
+                height: 80px  ;
             }
             a{
                 position: absolute;
@@ -525,6 +528,65 @@ nav{
                 }
             }
         }
+        main{
+            margin-top: -20%;
+            .button{
+                a{
+                    font-size: 30px;
+                }
+                img{
+                    width: 50%;
+                    height: 35px;
+                }
+            }
+            .container-01{
+                .wrapper{
+                    padding-bottom: 10%;
+                    .wrapper-02{
+                        display: flex;
+                        flex-direction: column;
+                        .text-wrapper{
+                            width: 100%;
+                            margin-top:5% ;
+                            font-size: 15px;
+                            p{
+                                font-size: 20px;
+                            }
+                        }
+                        .form-wrapper{
+                            width: 100%;
+                            .form{ 
+                                .form-control{
+                                    width: 90%;
+                                    margin-left: 10%;
+                                    
+                                }
+                                .state{
+                                    width: 100%;
+                                    display: inline;
+                                    
+                                }
+                                
+                                
+                            
+                            }
+                            
+                            
+                        }
+                    }
+                }
+            }
+            .submit-wrapper{
+                a{
+                    font-size: 30px;
+                }
+                img{
+                    width: 40%;
+                    height: 35px;
+                }
+            }
+        }
+    
     .linebottom{
         height: 5px;
     }
@@ -602,4 +664,7 @@ nav{
         font-size: 12px;
     }
     }
+}
+body main .container-01 .wrapper .wrapper-02 .form-wrapper #checkbox .form-control{
+    font-size: 17px;
 }
