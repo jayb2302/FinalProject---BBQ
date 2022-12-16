@@ -193,7 +193,6 @@ body main .container-02 {
   padding-top: 5%;
 }
 body main .container-02 .textbox-02 {
-  width: 50%;
   height: auto;
   background-color: #29221C;
   color: #f2f2f2;
@@ -475,6 +474,72 @@ body .end {
   }
   body nav ul .hide li a {
     font-size: 17px;
+  }
+  body main {
+    margin-top: -20%;
+  }
+  body main .container-01 {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .container-01 .textbox-01 {
+    width: 80%;
+    height: 100%;
+  }
+  body main .container-01 .textbox-01 h1 {
+    font-size: 35px;
+  }
+  body main .container-01 .textbox-01 p {
+    font-size: 15px;
+  }
+  body main .container-01 .imgbox-01 {
+    width: 80%;
+  }
+  body main .problem {
+    display: none;
+  }
+  body main .container-02 {
+    display: none;
+  }
+  body main .container-03 {
+    display: none;
+  }
+  body main h2 {
+    font-size: 40px;
+  }
+  body main .container-04 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  body main .container-04 h1 {
+    font-size: 35px;
+  }
+  body main .container-04 .textbox-04 {
+    width: 80%;
+    margin-bottom: 7%;
+  }
+  body main .container-04 .textbox-04 p {
+    text-align: start;
+  }
+  body main .container-04 .textbox-05 {
+    width: 80%;
+    margin-bottom: 6%;
+  }
+  body main .container-04 .textbox-05 p {
+    text-align: start;
+  }
+  body main .container-04 .textbox-06 {
+    width: 80%;
+  }
+  body main .container-04 .textbox-06 p {
+    text-align: start;
+  }
+  body main .container-04 .textbox-07 {
+    width: 80%;
+  }
+  body main .container-04 .textbox-07 p {
+    text-align: start;
   }
   body .linebottom {
     height: 5px;

@@ -211,7 +211,6 @@ body{
         justify-content: center;
         padding-top: 5%;
         .textbox-02{
-            width: 50%;
             height: auto;
             background-color: $shadow;
             color: $text-color;
@@ -526,6 +525,73 @@ body{
                     }
                 }
             }  
+            main{
+                margin-top: -20%;
+                .container-01{
+                    display: flex;
+                    flex-direction: column;
+                    .textbox-01{
+                        width: 80%;
+                        height: 100%;
+                        h1{
+                            font-size: 35px;
+                        }
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                    .imgbox-01{
+                        width: 80%;
+                    }
+                }
+                .problem{
+                    display: none;
+                }
+                .container-02{
+                    display: none;
+                }
+                .container-03{
+                    display: none;
+                }
+                h2{
+                    font-size: 40px;
+                }
+                .container-04{
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    h1{
+                        font-size: 35px;
+                    }
+                    
+                    .textbox-04{
+                        width: 80%;
+                        margin-bottom: 7%;
+                        p{
+                            text-align: start;
+                        }
+                    }
+                    .textbox-05{
+                        width: 80%;
+                        margin-bottom: 6%;
+                        p{
+                            text-align: start;
+                        }
+                    }
+                    .textbox-06{
+                        width: 80%;
+                        p{
+                            text-align: start;
+                        }
+                    }
+                    .textbox-07{
+                        width: 80%;
+                        p{
+                            text-align: start;
+                        }
+                    }
+                }
+            }
         .linebottom{
             height: 5px;
         }
