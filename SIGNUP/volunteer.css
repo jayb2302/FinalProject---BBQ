@@ -455,6 +455,13 @@ body .end {
   body nav ul li a {
     font-size: 28px;
   }
+  body nav ul .hide {
+    width: 40%;
+    margin-left: -24%;
+  }
+  body nav ul .hide li a {
+    font-size: 17px;
+  }
   body main {
     margin-top: -20%;
   }
