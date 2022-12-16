@@ -350,7 +350,11 @@ footer{
             .hide{
                 width: 40%;
                 margin-left: -24%;
-                font-size: 10px;
+                li{
+                    a{
+                        font-size: 17px;
+                    }
+                }
             }
         }
     }
