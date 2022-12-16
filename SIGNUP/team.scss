@@ -26,14 +26,7 @@ body{
     
     }
 
-    .navbarimg{
-        position: absolute;
-        z-index: 2;
-        width: 100%;
-        margin-top: -0.5%;
-        pointer-events: none;
-        
-    }
+    
 
 nav{
     
@@ -52,7 +45,14 @@ nav{
         z-index: 3;
         width: 100%;
         position: relative;
-        
+        .navbarimg{
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin-top: -0.5%;
+            pointer-events: none;
+            height: 80px;
+        }
         li{
             list-style-type: none; 
             display: block;
@@ -156,7 +156,9 @@ nav{
             width: 100%;
             z-index: 2;
             margin-top: -7.5%;
-           
+            height: 80px ; 
+            width: 100%;
+
             img{
                 display: flex;
                 justify-content: center;
@@ -394,6 +396,8 @@ nav{
                 display: flex;
                 justify-content: center;
                 position: relative;
+                width:20%; 
+                height: 80px  ;
                
             }
             a{
@@ -520,7 +524,57 @@ nav{
                 }
             }
         }
-       
+    main{
+        margin-top: -20%;
+        .button{
+            a{
+                font-size: 30px;
+        }
+            img{
+                width: 40%;
+                height: 35px;
+        }
+    }   
+    .container-01{
+        .wrapper{
+            .wrapper-02{
+                display: flex;
+                flex-direction: column;
+                .text-wrapper{
+                    width: 100%;
+                    margin-top:5% ;
+                    font-size: 15px;
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .form-wrapper{
+                    width: 100%;
+                    .form{ 
+                        .form-control{
+                            width: 90%;
+                            margin-left: 10%;
+                        }
+                        .state{
+                            width: 100%;
+                            display: inline;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .submit-wrapper{
+        a{
+            font-size: 30px;
+        }
+        img{
+            width: 40%;
+            height: 35px;
+        }
+    }
+}
     .linebottom{
         height: 5px;
     }
